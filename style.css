@@ -26,20 +26,25 @@ body {
     
 }
 
+h1 {
+    margin-top: 20px;
+    left: 400px;
+    color: rgb(56 56 56); /* PIRATE BLACK*/
+    font: normal 200 18px/ 2 "Guyot", "Baskerville", serif;  
+    letter-spacing: 0.02em;
+  
+}
+
 h2 {
     left: 400px;
     color: rgb(56 56 56); /* PIRATE BLACK*/
-    font: normal 400 11px/ 2 "Guyot", "Baskerville", serif;  
-    font-style: italic;
+    font: italic 400 11px/ 2 "Guyot", "Baskerville", serif;  
     letter-spacing: 0.02em;
     font-weight: 630;
   
 }
 
 h3 {
-  
-
-  
     margin-top: 10px;
     left: 400px;
     color: rgb(56 56 56); /* PIRATE BLACK*/
@@ -118,8 +123,8 @@ a:visited {
 
 .main-content {
     position:absolute ; 
-    top: 160px;
-    left: 250px;
+    /* top: 160px;
+    left: 250px; */
     padding-bottom: 200px;
     align-items: center;
 }
@@ -140,58 +145,14 @@ a:visited {
 
 .nav-links1 {
     position:absolute ; 
-    top: 160px;
-    left: 250px;
     color: rgb(56 56 56); /* PIRATE BLACK*/
     font: normal 400 12px/ 2 "Guyot", "Baskerville", serif;  
     font-style: italic;
     font-weight: 630;
     letter-spacing: 0.01em;
-}
-
-
-
-.nav-links2 {
-    position:absolute ; 
     top: 160px;
     left: 450px;
-    color: rgb(56 56 56); /* PIRATE BLACK*/
-    font: normal 400 12px/ 2 "Guyot", "Baskerville", serif;  
-    font-style: italic;
-    font-weight: 630;
-    letter-spacing: 0.01em;
 }
-
-.nav-links3 {
-    position:absolute ; 
-    top: 160px;
-    left: 580px;
-    color: rgb(56 56 56); /* PIRATE BLACK*/
-    font: normal 400 12px/ 2 "Guyot", "Baskerville", serif;  
-    font-style: italic;
-    font-weight: 630;
-    letter-spacing: 0.01em;
-}
-
-.nav-links4 {
-    position:absolute ; 
-    top: 160px;
-    left: 700px;
-    color: rgb(56 56 56); /* PIRATE BLACK*/
-    font: normal 400 12px/ 2 "Guyot", "Baskerville", serif;  
-    font-style: italic;
-    font-weight: 630;
-    letter-spacing: 0.01em;
-}
-
-/* .book-links {
-    color: rgb(56 56 56); /* PIRATE BLACK*/
-    /* font: normal 400 12px/ 2 "Guyot", "Baskerville", serif;  
-    font-style: italic;
-    font-weight: 630;
-    letter-spacing: 0.01em;
-
-} */
 
 
 .book-imgs{
@@ -207,3 +168,38 @@ a:visited {
     max-width: 100%;
 }
 
+
+.about-body {
+    position: absolute;
+    top: 70px;
+    left: 450px;
+    width: 70vh;
+
+
+}
+/* 
+
+.nav-links1 p:nth-child(1) {
+    top: 160px;
+    left: 450px;
+  
+}
+.nav-links1 p:nth-child(2) {
+    top: 160px;
+    left: 580px;
+}
+
+.nav-links1 :nth-child(5) {
+    top: 160px;
+    left: 700px;
+  
+} */
+
+/* .book-links {
+    color: rgb(56 56 56); /* PIRATE BLACK*/
+    /* font: normal 400 12px/ 2 "Guyot", "Baskerville", serif;  
+    font-style: italic;
+    font-weight: 630;
+    letter-spacing: 0.01em;
+
+} */
