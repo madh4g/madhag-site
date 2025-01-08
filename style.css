@@ -174,9 +174,11 @@ a:visited {
     top: 70px;
     left: 450px;
     width: 70vh;
+    padding-bottom: 50px;
 
 
 }
+
 /* 
 
 .nav-links1 p:nth-child(1) {
