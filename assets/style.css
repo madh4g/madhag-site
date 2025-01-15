@@ -1,0 +1,302 @@
+
+/*
+=PREVENT FONT SCALING IN MOBILE LANDSCAPE WHILE ALLOWING USER ZOOM */
+:root {
+    -webkit-text-size-adjust: none;
+            text-size-adjust: none;
+}
+/*
+=PREVENT PADDING FROM ADDING ONTO OVERALLL SIZE OF ELEMENTS */
+* { box-sizing: border-box; }
+
+/*
+=STYLE THE BODY ELEMENT */
+body {
+    background-color: rgb(223 220 212); /*OFF WHITE*/
+    font: normal 400 14px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;     
+    /* letter-spacing: 0.2px;
+    margin: 0; */
+}
+
+/*
+=PAGE WRAPPER
+============================================= */
+.pge-wrapper {
+    background: rgb(223 220 212);
+    display: flex; /* create a new block formatting context  */
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    flex-direction: row;
+    gap: 15px;
+    /* justify-content: center; */
+}
+
+/*
+=HEADDER + INSIDE WRAPPER
+============================================= */
+/*
+=HEADDER*/
+
+/* header {
+    position: fixed;
+} */
+/*
+=STYLE THE INSIDE WRAPPER*/
+
+.ins-wrapper {
+    flex: 1;
+    height: 100vh;   
+    margin-top: 50px;
+    /* background-color: gold; */
+}
+
+/*
+=HOME PAGE
+============================================= */
+.home-page {
+    display:flex; 
+    /* flex-wrap: nowrap; */
+    align-items: left; 
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 20px;
+    width: 1200px;
+    height: 100vh;
+    /* background-color: red; */
+
+}
+
+/*
+= + IMAGE SPACE
+============================================= */
+/*
+=STYLE THE INSIDE SPACE*/
+.img-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100vh; 
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    /* background-color: blue; */
+}
+
+/*
+=BOOK CONTAINER
+============================================= */
+.book_cnt {
+    padding-top: 16px;
+}
+/*
+=HEADING + SUBHEADING
+============================================= */
+/*
+=STYLE THE HEADING*/ 
+h1,
+h2,
+h3, 
+h4 { 
+    color: rgb(56 56 56); 
+    margin: 0;
+}
+    
+/*
+=STYLE THE HEADING*/ 
+h1{
+    text-transform: uppercase;
+    font: normal 400 23px/1.1 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font: italic 630 11px/2 "Guyot", "Baskerville", serif; 
+    padding-left: 18px; 
+    letter-spacing: 0.02em;
+}
+
+h3 {
+    font: normal 400 14px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;     
+}
+
+
+h4 {
+    font: normal 400 9px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 250;
+    padding-bottom: 20px;  
+}
+
+h5 {
+    font: normal 100 83px/1.1 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 0.1em; 
+    font-weight: 100;
+}
+
+h6 {
+    font: italic 600 44px/2 "Guyot", "Baskerville", serif; 
+    padding-left: 18px; 
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    padding-left: 55px;
+    margin-top: -140px;
+}
+
+/*
+=EXTRA COPY
+============================================= */
+.book-text { padding-left: 15px; }
+
+span.page_nbr {
+    font: normal 550 9px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    padding-bottom: 20px;  
+}
+
+span.cap {
+    font: normal 400 10px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 250;
+    padding-bottom: 20px;
+    padding-left: 10px;  
+}
+
+.home-page span.by-line {
+    font: italic 600 22px/2 "Guyot", "Baskerville", serif; 
+    padding-left: 18px; 
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    padding-left: 35px;
+}
+
+
+
+/*
+=NAV BAR
+============================================= */
+/*
+=STYLE THE NAV BAR*/ 
+
+nav a {
+    text-align: left;
+    display: block;
+    font: inherit;
+    font-size: small;
+    letter-spacing: 0.07em;
+    margin-top: 10px;
+    padding-left: 18px;
+}
+
+/*
+=STYLE THE NAV BAR ON THE HOME PAGE*/ 
+
+.title-nav {
+    padding-left: 38px;
+    margin-top: -100px;
+}
+/*
+=BOOK LINKS
+============================================= */
+.book-links {
+    display: flex;
+    justify-content: left;
+}
+
+.book-links a.book-name {
+    padding-left: 30px;
+    font: italic 500 15px/2 "Guyot", "Baskerville", serif; 
+    padding-left: 18px; 
+    letter-spacing: 0.06em;
+}
+/*
+=LINK STATES
+============================================= */
+a { text-decoration: none; }
+
+a:link,
+a:visited { color: inherit; }
+
+/*
+=FIGCAPTION
+============================================= */
+figcaption {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+/*
+=IMAGE GALLERY
+============================================= */
+.img-gallery {
+    display:flex; 
+    flex-wrap: wrap;
+    margin: 0;
+    padding-bottom: 20px;
+    /* background-color: red; */
+
+}
+
+/*
+=IMAGE WRAPPER
+============================================= */
+.img-wrapper {
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.img-self {
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    padding-top: 20px;
+}
+
+/*
+=ABOUT BODY
+============================================= */
+
+.about_body { margin-bottom: 40px; }
+
+/*
+=IMAGES
+============================================= */
+.img-wrapper img {
+    width: 100%;
+    display: block;
+    box-shadow: 1px 1px 2px rgb(193, 192, 187);
+    align-items: center;
+}
+
+.img-self img {
+    width: 400px;
+    display: block;
+    align-items: center;
+}
+
+/*
+=LIST
+============================================= */
+li {
+    list-style: none;
+    font-style: inherit;
+    padding-top: 15px;
+}
+
+/*
+=FOOTER
+============================================= */
+.footer {
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+

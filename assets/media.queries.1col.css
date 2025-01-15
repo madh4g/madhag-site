@@ -1,0 +1,71 @@
+/*
+Name= Media Queries
+
+/*
+=X-Small Screen < 576px
+============================================= */
+@media (max-width: 575.98px) {
+    .pge-wrapper { padding: 0 20px 40px; }
+    .ins-wrapper { padding: 0 20px; }
+    .img-wrapper { flex: 0 0 100%; }
+
+}
+
+/*
+=Small Screen ≥ 576px
+============================================= */
+@media (min-width: 576px) {
+    .pge-wrapper { padding: 0 20px 60px; }
+    .ins-wrapper { padding: 0 20px; }
+    .img-wrapper { flex: 0 0 80%; }
+}
+
+/*
+=Medium Screen ≥ 768px
+============================================= */
+@media (min-width: 768px) {
+    .pge-wrapper { padding: 0 60px 80px; }
+    .ins-wrapper { padding: 0 60px; }
+}
+
+
+/*
+=Large Screen ≥ 992px
+============================================= */
+@media (min-width: 992px) {
+    .pge-wrapper { padding:0  100px 100px; } /* top left-right bottom */
+    .ins-wrapper { padding: 0 100px; } /* top-bottom left-right */
+    .img-wrapper { flex: 0 0 80%; } 
+}
+
+/* ========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
