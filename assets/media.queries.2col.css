@@ -8,9 +8,10 @@ Name= Media Queries
     .pge-wrapper { padding: 0 20px 40px; }
     .ins-wrapper { padding: 0 20px; }
     .img-wrapper,  
-    .home-page,  
+    .home-page,
     .img-self  { flex: 0 0 100%; }
-    footer {
+    footer,     
+    .nav2_cnt {
         text-align: center;
         font-size: 6px;
         padding: 10px 20px;
@@ -24,9 +25,10 @@ Name= Media Queries
     .pge-wrapper { padding: 0 20px 60px; }
     .ins-wrapper { padding: 0 20px; }
     .img-wrapper,  
-    .home-page,  
+    .home-page, 
     .img-self  { flex: 0 0 50%; }
-    footer {
+    footer, 
+    .nav2_cnt {
         text-align: center;
         font-size: 6px;
         padding: 20px 40px;
@@ -55,7 +57,8 @@ Name= Media Queries
     .img-wrapper,  
     .home-page,  
     .img-self  { flex: 0 0 50%; }
-    footer {
+    footer,
+    .nav2_cnt {
         text-align: center;
         padding: 30px 60px;
     }

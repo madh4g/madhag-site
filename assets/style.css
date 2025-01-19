@@ -9,6 +9,10 @@
 =PREVENT PADDING FROM ADDING ONTO OVERALLL SIZE OF ELEMENTS */
 * { box-sizing: border-box; }
 
+html {
+    scroll-behavior: smooth;
+    transition: 5s ease;
+}
 /*
 =STYLE THE BODY ELEMENT */
 body {
@@ -82,11 +86,19 @@ body {
 }
 
 /*
-=BOOK CONTAINER
+=NAV2 CONTAINER
 ============================================= */
-.book_cnt {
+.nav2_cnt {
     padding-top: 16px;
 }
+
+/*
+=NAV3 CONTAINER
+============================================= */
+.nav3_cnt {
+    padding-top: 16px;
+}
+
 /*
 =HEADING + SUBHEADING
 ============================================= */
@@ -112,17 +124,17 @@ h1{
     font: italic 630 11px/2 "Guyot", "Baskerville", serif; 
     letter-spacing: 0.02em;
     text-transform: initial;
+    
 
 }
 
 h2 {
     font: italic 630 11px/2 "Guyot", "Baskerville", serif; 
-    padding-left: 18px; 
     letter-spacing: 0.02em;
 }
 
 h3 {
-    font: normal 400 14px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;     
+    font: normal 400 14px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
 }
 
 
@@ -167,6 +179,16 @@ span.enter {
     margin-top: 200px;
 }
 
+span.more {
+    font: normal 400 14px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
+text-transform: initial;
+}
+
+span.sold {
+    font: normal 400 12px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
+text-transform: uppercase;
+}
+
 
 /*
 =NAV BAR
@@ -208,27 +230,51 @@ nav a.red {
     margin-top: -100px;
 }
 /*
-=BOOK LINKS
+=NAV2 LINKS
 ============================================= */
-.book-links {
+.nav2-links {
     display: flex;
     justify-content: left;
 }
 
-.book-links a.book-name {
-    padding-left: 30px;
+.nav2-links a.nav-name {
+    /* padding-left: 30px; */
     font: italic 500 15px/2 "Guyot", "Baskerville", serif; 
     padding-left: 18px; 
     letter-spacing: 0.06em;
 }
 
-.book-links a.book-name-red {
+.nav2-links a.nav-name-red {
     padding-left: 30px;
     font: italic 500 15px/2 "Guyot", "Baskerville", serif; 
     padding-left: 18px; 
     letter-spacing: 0.06em;
     color: rgb(199, 11, 13);
 }
+
+/*
+=NAV3 LINKS
+============================================= */
+.nav3-links {
+    display: flex;
+    justify-content: left;
+    margin-left: 65px;
+}
+
+.nav3-links a.nav-name {
+    font: italic 500 15px/2 "Guyot", "Baskerville", serif; 
+    padding-left: 18px; 
+    letter-spacing: 0.06em;
+}
+
+.nav3-links a.nav-name-red {
+    font: italic 500 15px/2 "Guyot", "Baskerville", serif; 
+    padding-left: 18px; 
+    letter-spacing: 0.06em;
+    color: rgb(199, 11, 13);
+}
+
+
 /*
 =LINK STATES
 ============================================= */

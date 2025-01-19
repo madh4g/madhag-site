@@ -14,8 +14,9 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"> -->
 
         <link rel="stylesheet" href="../assets/style.css">
+        <link rel="stylesheet" href="../assets/fancybox.css">
         <link rel="stylesheet" href="../assets/media.queries.2col.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">        
         
 
 
@@ -59,7 +60,6 @@
 					<a href="design.html">Design</a>
 					<a href="books_home.html">Books</a>
 					<a href="fine_art.html">Fine Arts</a>
-					<a href="#">Process</a>
 					<a href="about.html" class="red">About</a>
 				</nav>
 				</div>
@@ -69,15 +69,16 @@
 			</header>
 
             <div class="img-space">
-                <div class="pro-des">
 
-                    <div class="book_cnt">
+                    <div class="nav_cnt">
                         <!--BOK NAVAGATION-->
-                        <div class="book-links"> 
-                            <a class="book-name" href="book_gfp.html">The Garden of Forking Paths</a>
-                            <a class="book-name" href="book_js.html">Mr. Švankmajer</a>
-                            <a class="book-name" href="book_truman.html">Truman Capote</a>
-                            <a class="book-name-red" href="book_salt.html">Salt</a>
+                        <div class="nav2-links"> 
+                            <li>
+                            <a class="nav-name" href="book_gfp.html">The Garden of Forking Paths</a>
+                            <a class="nav-name" href="book_js.html">Mr. Švankmajer</a>
+                            <a class="nav-name" href="book_truman.html">Truman Capote</a>
+                            <a class="nav-name-red" href="book_salt.html">Salt</a>
+                            </li>
                         </div>
 
                         <!--PAGE SUBHEADING-->
@@ -144,7 +145,6 @@
                             </figure>
 
                         </div>
-                    </div>
                 </div>
 
                 <footer>
@@ -158,9 +158,24 @@
         <!-- END OF PAGE WRAPPER! -->
         </div>
 		
-<!--JAVASCRIPT-->
- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"> </script>
+<!-- JAVASCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>    
 
+<script>// documentation at https://fancyapps.com/fancybox/
+
+Fancybox.bind("[data-fancybox]", {
+  // Transition effect when changing gallery items //
+  Carousel: {
+    transition: "slide",
+  },
+  // Customize the toolbar //
+  Toolbar: {
+    display: {
+      right: ["slideshow", "dis"],
+    },
+  },
+});
+</script>
     <!-- END OF BODY! -->
 	</body>
 </html>

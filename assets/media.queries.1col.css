@@ -7,7 +7,8 @@ Name= Media Queries
     .pge-wrapper { padding: 0 20px 40px; }
     .ins-wrapper { padding: 0 20px; }
     .img-wrapper,  
-    .home-page,  
+    .home-page,
+    .nav2_cnt,  
     .img-self  { flex: 0 0 100%; }
     footer {
         text-align: center;
@@ -24,13 +25,15 @@ Name= Media Queries
     .pge-wrapper { padding: 0 20px 60px; }
     .ins-wrapper { padding: 0 20px; }
     .img-wrapper,  
-    .home-page,  
+    .home-page,
     .img-self  { flex: 0 0 80%; }
-    footer {
+    footer,
+    .nav2_cnt {
         text-align: center;
         font-size: 6px;
         padding: 20px 40px;
     }
+   
 }
 
 /*
@@ -52,9 +55,10 @@ Name= Media Queries
     .pge-wrapper { padding:0  100px 100px; } /* top left-right bottom */
     .ins-wrapper { padding: 0 100px; } /* top-bottom left-right */
     .img-wrapper,  
-    .home-page,  
+    .home-page, 
     .img-self  { flex: 0 0 80%; }
-    footer {
+    footer,
+    .nav2_cnt {
         text-align: center;
         padding: 30px 60px;
     }
