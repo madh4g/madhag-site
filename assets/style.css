@@ -80,7 +80,7 @@ body {
     justify-content: space-between; 
     height: 100vh; 
     width: 100%;
-    margin-top: 90px;
+    margin-top: 100px;
     margin-bottom: 50px;
     /* background-color: blue; */
 }
@@ -209,7 +209,7 @@ text-transform: uppercase;
 nav {
     position: fixed;
     margin-top: 130px;
-    margin-left: -1.2%;
+    margin-left: -0.7%;
 
 }
 
@@ -240,7 +240,7 @@ nav a.red {
 .nav2-links {
     display: flex;
     justify-content: left;
-    margin: -13px;
+    margin: -3px;
 }
 
 .nav2-links a.nav-name {
@@ -264,7 +264,7 @@ nav a.red {
 .nav3-links {
     display: flex;
     justify-content: left;
-    margin-left: 65px;
+    margin-left: 75px;
 }
 
 .nav3-links a.nav-name {
@@ -295,6 +295,7 @@ a:visited { color: inherit; }
 figcaption {
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 5px;
 }
 
 
@@ -317,7 +318,7 @@ figcaption {
 ============================================= */
 .img-wrapper {
     margin: 0;
-    padding: 5px;
+    padding: 7px;
     position: relative;
     padding-top: 20px;
 }
