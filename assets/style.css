@@ -3,8 +3,9 @@
 =PREVENT FONT SCALING IN MOBILE LANDSCAPE WHILE ALLOWING USER ZOOM */
 :root {
     -webkit-text-size-adjust: none;
-            text-size-adjust: none;
+    text-size-adjust: none;
 }
+
 /*
 =PREVENT PADDING FROM ADDING ONTO OVERALLL SIZE OF ELEMENTS */
 * { box-sizing: border-box; }
@@ -13,6 +14,7 @@ html {
     scroll-behavior: smooth;
     transition: 5s ease;
 }
+
 /*
 =STYLE THE BODY ELEMENT */
 body {
@@ -67,8 +69,6 @@ body {
     height: 100vh;
 }
 
-
-
 /*
 = + IMAGE SPACE
 ============================================= */
@@ -118,12 +118,17 @@ h1{
     text-transform: uppercase;
     font: normal 400 23px/1.1 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
     letter-spacing: 0.1em;
+    display: flex;
+    justify-content: left;
 }
 
 .pge-head a span.by {
     font: italic 630 11px/2 "Guyot", "Baskerville", serif; 
     letter-spacing: 0.02em;
     text-transform: initial;
+    /* padding-left: 60px; */
+    margin-left: -155px;
+    margin-top: 34px;
     
 
 }
@@ -198,13 +203,13 @@ text-transform: uppercase;
 
 .pge-head {
     position: fixed;
-    margin-left: -5%;
+    margin-left: -5.6%;
 }
 
 nav {
     position: fixed;
     margin-top: 130px;
-    margin-left: -5%;
+    margin-left: -1.2%;
 
 }
 
@@ -235,6 +240,7 @@ nav a.red {
 .nav2-links {
     display: flex;
     justify-content: left;
+    margin: -13px;
 }
 
 .nav2-links a.nav-name {

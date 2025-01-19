@@ -8,7 +8,7 @@ Name= Media Queries
     .ins-wrapper { padding: 0 20px; }
     .img-wrapper,  
     .home-page,
-    .nav2_cnt,  
+    .nav2_cnt,
     .img-self  { flex: 0 0 100%; }
     footer {
         text-align: center;
