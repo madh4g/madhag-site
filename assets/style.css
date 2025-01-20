@@ -19,7 +19,7 @@ html {
 =STYLE THE BODY ELEMENT */
 body {
     background-color: rgb(223 220 212); /*OFF WHITE*/
-    font: normal 400 14px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;     
+    font: normal 400 15px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;     
     /* letter-spacing: 0.2px;
     margin: 0; */
 }
@@ -116,14 +116,14 @@ h4 {
 =STYLE THE HEADING*/ 
 h1{
     text-transform: uppercase;
-    font: normal 400 23px/1.1 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    font: normal 400 27px/1.1 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
     letter-spacing: 0.1em;
     display: flex;
     justify-content: left;
 }
 
 .pge-head a span.by {
-    font: italic 630 11px/2 "Guyot", "Baskerville", serif; 
+    font: italic 630 15px/2 "Guyot", "Baskerville", serif; 
     letter-spacing: 0.02em;
     text-transform: initial;
     /* padding-left: 60px; */
@@ -134,17 +134,17 @@ h1{
 }
 
 h2 {
-    font: italic 630 11px/2 "Guyot", "Baskerville", serif; 
+    font: italic 630 15px/2 "Guyot", "Baskerville", serif; 
     letter-spacing: 0.02em;
 }
 
 h3 {
-    font: normal 400 14px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
+    font: normal 400 19px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
 }
 
 
 h4 {
-    font: normal 250 9px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    font: normal 250 10px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
     text-transform: uppercase;
     letter-spacing: 0.1em;
     padding-bottom: 20px;  
@@ -162,22 +162,22 @@ h5 {
 .book-text { padding-left: 15px; }
 
 span.page_nbr {
-    font: normal 550 9px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    font: normal 550 12px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
     text-transform: uppercase;
     letter-spacing: 0.16em;
     padding-bottom: 20px;  
 }
 
 span.cap {
-    font: normal 250 10px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    font: normal 250 15px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
     text-transform: uppercase;
     letter-spacing: 0.1em;
     padding-bottom: 20px;
-    padding-left: 10px;  
+    padding-left: 0px;  
 }
 
 span.enter {
-    font: normal 250 9px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    font: normal 250 12px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
     text-transform: uppercase;
     letter-spacing: 0.2em;
     text-align: center;
@@ -185,7 +185,7 @@ span.enter {
 }
 
 span.more {
-    font: normal 400 14px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
+    font: normal 400 15px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
 text-transform: initial;
 }
 
@@ -194,7 +194,57 @@ span.sold {
 text-transform: uppercase;
 }
 
+span.bold {
+    font: normal 600 19px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
 
+
+}
+
+/*
+=STYLE THE FAVORITES SECTION*/ 
+.favorite5 {
+    margin-top: 70px;
+    margin-bottom: 25px;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.favorite5 figcaption {
+    margin-top: 40px;
+}
+
+span.milk {
+    font: italic 500 20px/.5 "Guyot", "Baskerville", serif; 
+    padding-right: 40px; 
+    letter-spacing: 0.06em;
+}
+
+span.survivor {
+    font: normal 600 15px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding-right: 40px;  
+
+}
+
+span.stone {
+    font: normal 400 18px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 0.13em;
+    padding-right: 40px;  
+}
+
+span.climb {
+    font: normal 500 20px/.5 "Guyot", "Baskerville", serif; 
+    padding-right: 40px; 
+    letter-spacing: 0.06em;
+}
+
+span.slippers {
+    font: normal 600 17px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 0.08em;
+    padding-right: 40px;  
+}
 /*
 =NAV BAR
 ============================================= */
@@ -208,7 +258,7 @@ text-transform: uppercase;
 
 nav {
     position: fixed;
-    margin-top: 130px;
+    margin-top: 150px;
     margin-left: -0.7%;
 
 }
@@ -217,7 +267,7 @@ nav a {
     text-align: left ;
     display: block;
     font: inherit;
-    font-size: small;
+    font-size: 15px;
     letter-spacing: 0.07em;
     margin-top: 10px;
 }
@@ -245,14 +295,14 @@ nav a.red {
 
 .nav2-links a.nav-name {
     /* padding-left: 30px; */
-    font: italic 500 15px/2 "Guyot", "Baskerville", serif; 
+    font: italic 500 18px/2 "Guyot", "Baskerville", serif; 
     padding-left: 18px; 
     letter-spacing: 0.06em;
 }
 
 .nav2-links a.nav-name-red {
     padding-left: 30px;
-    font: italic 500 15px/2 "Guyot", "Baskerville", serif; 
+    font: italic 500 18px/2 "Guyot", "Baskerville", serif; 
     padding-left: 18px; 
     letter-spacing: 0.06em;
     color: rgb(199, 11, 13);
@@ -268,13 +318,13 @@ nav a.red {
 }
 
 .nav3-links a.nav-name {
-    font: italic 500 15px/2 "Guyot", "Baskerville", serif; 
+    font: italic 500 20px/2 "Guyot", "Baskerville", serif; 
     padding-left: 18px; 
     letter-spacing: 0.06em;
 }
 
 .nav3-links a.nav-name-red {
-    font: italic 500 15px/2 "Guyot", "Baskerville", serif; 
+    font: italic 500 20px/2 "Guyot", "Baskerville", serif; 
     padding-left: 18px; 
     letter-spacing: 0.06em;
     color: rgb(199, 11, 13);
@@ -296,6 +346,14 @@ figcaption {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 5px;
+}
+
+    
+.social-links a {
+    color: rgb(199, 11, 13);
+    font: normal 400 19px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;       
+    margin-right: 40px;
+
 }
 
 
@@ -320,7 +378,7 @@ figcaption {
     margin: 0;
     padding: 7px;
     position: relative;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .img-self {
@@ -333,24 +391,28 @@ figcaption {
 .img-wrapper img:hover {
     cursor: pointer;
 }
-/*
-=ABOUT BODY
-============================================= */
 
-.about_body { 
-    margin-bottom: 40px; 
-    max-width: 80%;
-}
 
 /*
 =IMAGES
 ============================================= */
-.img-wrapper img {
+/* .img-wrapper img {
     width: 100%;
     display: block;
     box-shadow: 1px 1px 2px rgb(193, 192, 187);
     align-items: center;
+    margin-top: 80px;
+} */
+
+.img-wrapper img {
+    width: 100%;
+    display: block;
+    box-shadow: 1px 1px 2px rgb(223 220 212);
+    align-items: center;
+    margin-top: 80px;
 }
+
+
 
 .img-self img {
     width: 100%;
@@ -358,6 +420,14 @@ figcaption {
     align-items: center;
 }
 
+/*
+=ABOUT BODY
+============================================= */
+
+.about_body { 
+    margin-bottom: 40px; 
+    max-width: 100%;
+}
 /*
 =LIST
 ============================================= */

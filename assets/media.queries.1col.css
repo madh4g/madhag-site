@@ -10,6 +10,9 @@ Name= Media Queries
     .home-page,
     .nav2_cnt,
     .img-self  { flex: 0 0 100%; }
+
+    .favorite5 { }
+
     footer {
         text-align: center;
         font-size: 6px;
