@@ -1,0 +1,181 @@
+/*
+Module Name= Responsive Nav
+Updated= 25.01.30 */
+
+/*
+=Navigation > Large Screen
+============================================= */
+/*
+=hide the hamburger wrapper */
+.hb_wrapper {
+  display: none;
+}
+
+/*
+=style the menu container, ul, + li elements */
+menu,
+ul { padding: 0; } /* remove the default left padding */
+li { list-style: none; } /* remove the default bullet point */
+
+/*
+=style the menu container */
+menu {
+  display: flex; /* make the menu a flex container to display the menu items in row formation */
+  font-size: 13.5px; /* reduce the font size of the links */
+  margin: 0; /* zero out the menu’s default top + bottom margins */
+}
+
+/*
+=hide the input element */
+menu input {
+  display: none;
+}
+
+/*
+=create a new positioning context to position the submenu */
+menu ul {
+  position: relative;
+}
+
+/*
+=create a new positioning context to position the label element */
+menu ul > li:nth-child(1) {
+  position: relative;
+}
+
+/*
+=style the label element */
+menu label {
+  position: absolute; /* absolutely position the label element */
+  top: 0; left: 0; /* align the label element to the top + left edges of its parent */
+  width: 100%; height: 100%; /* Add a width + height to the label element to ensure it fully covers its parent */
+  cursor: pointer; /* change the cursor to a pointer when positioned over the label element */
+}
+
+/*
+=style all but the first menu items */
+menu > li:nth-child(n+2) { /* or menu > li:not(:first-child) { … } */
+  margin-left: 60px; /* apply a left margin to all but the first menu item using nth-child */
+}
+
+/*
+=style the menu + submenu links */
+menu a {
+  color: rgb(58 65 72); /* override the menu + submenu links’ default color */
+  display: block; /* make the links behave like block-level elements to apply top + bottom padding */
+  padding: 7px 0; /* use padding to add space above + below the menu and submenu links */
+}
+
+/*
+=hide the submenu */
+menu .submenu {
+  max-height: 0; /* set the submenu’s maximum height to zero to hide the submenu links */
+  overflow-y: hidden; /* prevent the submenu links from escaping their container */
+  position: absolute; /* absolutely position the submenu to remove it from the page flow */
+  left: 50%; /* use the left property to position the submenu's left edge at the midpoint of the menu link */
+  transform: translateX(-50%); /* shift the submenu to the left by half its width to center it beneath the menu link */
+  width: 130px; /* apply a set width to the submenu */
+  transition: 0.65s ease-in-out; /* enable a smooth transition of the background-color + max-height properties */
+}
+
+/*
+=show the submenu */
+menu input:checked + ul .submenu {
+  max-height: 500px; /* set the submenu’s maximum height */
+  background-color: rgb(223 220 212/ 0.9); /* transition the submenu’s background color to a translucent red */
+
+}
+
+/*
+=set the submenu links' pre-transition properties */
+menu .submenu a {
+  color: transparent; /* set the pre-transition color on the submenu links to transparent */
+  transition: 0.65s ease-in-out; /* ensure the submenu links transition smoothly into + out of view */
+  padding-left: 5px; /* Apply padding to the left side of the submenu links */
+}
+
+/*
+=transition the submenu links' color from transparent to white */
+menu input:checked + ul .submenu a {
+  color: rgb(58 65 72);
+}
+
+/*
+=Navigation > Small Screen
+============================================= */
+@media (max-width: 991.98px) {
+  /*
+  =style the hamburger wrapper */
+  .hb_wrapper { display: flex; } /* display the hamburger wrapper */
+  
+  /*
+  =style the nav container */
+  nav {
+    z-index: 10;
+    position: fixed; /* Remove the nav container from the page flow to allow precise positioning */
+    top: 0; left: -250px; bottom: 0; /* position the nav container against the browser viewport’s top, left, + bottom edges */
+    width: 250px; /* assign a set width to the nav container */
+    transition: 0.65s ease-in-out; /* ensure a smooth transition of the nav container into + out of view */
+  }
+  
+  /*
+  =display the nav container when the hamburger is clicked */
+  .hb_checkbox:checked ~ nav {
+    background-color: rgb(223 220 212/ 0.9); /* transition the background color to a translucent light gray */
+    left: 0; /* transition the nav container into view by aligning its left edge with the viewport’s left edge */
+  }
+  
+  /*
+  =display the menu container in column formation */
+  menu {
+    flex-direction: column;
+  }
+  
+  /*
+  =select the menu element's children + adjust their left + right margins */
+  menu > li:nth-child(n) {
+    margin: 0 20px;
+  }
+  
+  /*
+  =apply a top margin to the first menu item */
+  menu > li:nth-child(1) {
+    margin-top: 65px; /* override the previous ruleset to create some separation from the viewport's top edge */
+  }
+  
+  /*
+  =style the submenu */
+  menu .submenu {
+    position: revert; /* return the submenu to the page flow to prevent it from overlapping the menu items when open */
+    transform: none; /* remove the submenu’s transform declaration to restore its default alignment */
+    width: auto; /* reset the submenu's width to its default value of auto */ 
+  }
+}
+
+/* ========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

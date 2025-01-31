@@ -1,0 +1,347 @@
+/*
+Name= Global */
+
+/*
+=Global
+============================================= */
+
+/*
+=PREVENT FONT SCALING IN MOBILE LANDSCAPE WHILE ALLOWING USER ZOOM */
+:root {
+    -webkit-text-size-adjust: none;
+            text-size-adjust: none;
+}
+/*
+=PREVENT PADDING FROM ADDING ONTO OVERALLL SIZE OF ELEMENTS */
+* { box-sizing: border-box; }
+
+/*
+=STYLE THE BODY ELEMENT */
+body {
+    background-color: rgb(223 220 212); /*OFF WHITE*/
+    font: normal 400 15px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;  
+    letter-spacing: 0.2px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/*
+= THE BODY ELEMENT BOLD*/
+span.bold {
+    font: normal 600 16px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
+    text-transform: inherit;
+}
+
+/*
+=PAGE WRAPPER
+============================================= */
+.pge-wrapper {
+    background: rgb(223 220 212);
+    display: flow-root; /* create a new block formatting context  */
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+/*
+=HEADDER + INSIDE WRAPPER
+============================================= */
+/*
+=STYLE THE HEADER*/
+header {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/*
+=Style the Inside Wrapper */ 
+header .ins-wrapper {
+
+    background-color: rgb(223 220 212/ 0.9);
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding-top: 30px; 
+
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+/*
+=Style the container enclosing the label element + hamburger wrapper */ 
+header .ins-wrapper > div {
+    position: relative;
+    z-index: 5;
+}
+
+/*
+=HEADING + SUBHEADING
+============================================= */
+/*
+=Style the Heading */ 
+
+h1,
+h2,
+h3,
+h4,
+.pge-head a span.red
+.pge-head a span.by,
+.project-title a
+{ 
+    color: rgb(56 56 56); 
+    margin: 0;
+}
+    
+/*
+=Style the Heading */ 
+.pge-head { justify-content: left; }
+
+h1{
+    text-transform: uppercase;
+    font: normal 400 27px/1.1 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 0.1em;
+    margin-left: 23px;
+}
+
+.pge-head a span.by {
+    font: italic 630 16px/2 "Guyot", "Baskerville", serif; 
+    letter-spacing: 0.02em;
+    margin-top: 34px;
+    text-transform: initial;
+    margin-left: -20px;
+}
+
+h2 {
+    font: normal 400 27px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
+    color: rgb(199, 11, 13);
+}
+
+h3{
+    text-transform: uppercase;
+    font: normal 400 27px/1.1 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 0.1em;
+    margin-left: 23px;
+    color: rgb(199, 11, 13);
+}
+
+h4 {
+    font: normal 600 16px/2 "Guyot", "Baskerville", serif; 
+    letter-spacing: 0.02em;
+
+  
+}
+.pge-head a span.red {
+    font: italic 630 16px/2 "Guyot", "Baskerville", serif; 
+    letter-spacing: 0.02em;
+    margin-top: 34px;
+    color: rgb(199 11 13);
+    text-transform: initial;
+    margin-left: -20px;
+
+}
+
+.social-links a {
+    color: rgb(199, 11, 13);
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+/*
+=PROJECT DESCRIPTION
+============================================= */
+.pro-des { 
+    margin-top: 200px;
+    margin-left: 92px;
+}
+
+.pro-des_design { 
+    margin-top: 150px;
+    /* margin-left: 92px; */
+}
+
+.pro-des_design { 
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    /* margin-left: 92px; */
+}
+
+
+.pro-des_text {
+    margin-top: 20px;
+    justify-content: left;
+    margin-right: 40px;
+}
+
+.pro-des p {
+        font-size: small;
+        color: rgb(199 11 13/.45);
+    }
+
+    .pro-des_design-red p { 
+        margin-top: 50px;
+        font-size: small;
+        color: rgb(199 11 13/.45);
+    }
+    
+
+.book-text {
+        margin-left: 40px;
+    }
+
+.pro-text { 
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        /* margin-left: 92px; */
+    }
+/*
+=IMAGE GALLERY
+============================================= */
+.img-gallery {
+    display:flex; 
+    flex-wrap: wrap;
+    margin: 0 -5px;
+    justify-content: center;
+}
+
+.project-title {
+    margin-top: 120px;
+    margin-left: 53px;
+}
+
+.project-title a { 
+    list-style-type: none; 
+    font: italic 230 20px/2 "Guyot", "Baskerville", serif; 
+    letter-spacing: 0.02em;
+    /* text-transform: initial; */
+  }
+/*
+=IMAGE WRAPPER
+============================================= */
+.img-wrapper,
+.img-wrapper_no-box {
+    margin: 0;
+    /* padding-right: 10px; */
+    padding-bottom: 20px;
+    position: relative;
+    /* background-color: blueviolet; */
+}
+.group,
+.group-design,
+.group-arts,
+.group-about {
+    padding: 10px;
+    padding-top: 10px;
+    /* margin-bottom: 50px; */
+    position: relative;
+}
+
+/*
+=IMAGES
+============================================= */
+.img-wrapper img {
+    width: 100%;
+    display: block;
+    margin-top: 23px;
+    box-shadow: 1px 1px 2px rgba(200, 197, 190, 0.9);
+}
+
+.img-wrapper_no-box img{
+    width: 100%;
+    display: block;
+    margin-top: 23px;
+}
+
+/*
+=CAPTION 
+============================================= */
+ /*
+=Style the hover event  */
+figcaption {
+    font-size: 100%;
+    position: absolute;
+    top: 5px; right: 5px; bottom: 5px; left: 5px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    /* transition: 0.25s ease-in-out; */
+    padding: 10px;
+} 
+
+figcaption a {    cursor: pointer;
+}
+
+/* .img-wrapper figcaption:hover {
+    background-color: rgb(223 220 212/ 0.85);
+    color: rgb(199, 11, 13);
+    font: normal 400 20px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
+}
+
+ /*
+=Style the text  */
+span.title,
+span.cap {
+    margin-left: 20px;
+}
+span.title {
+    font: normal 300 17px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 1.2px;
+    padding-right: 20px;
+    color: rgb(199, 11, 13);
+
+}
+span.cap {
+    font: normal 250 14px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 1.2px;
+    margin-bottom: -5px;
+    text-transform: uppercase;
+    color: rgb(56 56 56); 
+
+}
+span.red,
+li a.red {
+    color: rgb(199, 11, 13);
+}
+
+span.sub-head {
+    font: normal 450 16px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 1.2px;
+
+}
+
+p.design_body {
+    max-width: 770px;
+}
+
+/*
+=LINK STATES
+============================================= */
+a { text-decoration: none; }
+
+
+/*
+=Starla COls
+============================================= */
+.design-head-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.col-2 {
+    margin-top: 30px;
+    display: flex;
+}
+
+.abt-starla {
+    max-width: 600px;
+    margin-top: 56px;
+}
+

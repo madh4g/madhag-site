@@ -1,0 +1,124 @@
+/*
+Module Name= Dynamic Hamburger
+Updated= 24.11.27 */
+
+/*
+=Checkbox
+============================================= */
+.hb_checkbox {
+    position: absolute;
+    top: 0; left: 0;
+    width: 0; height: 0;
+    opacity: 0;
+}
+
+/*
+=Label + Hamburger Wrapper
+============================================= */
+/*
+=style the label + hamburger wrapper */
+.hb_label, 
+.hb_wrapper {
+    width: 26px; height: 26px;
+    transform: translate(4px, -1.5px);
+}
+
+/*
+=style the label */
+.hb_label {
+    /* background-color: lightskyblue; */
+    position: absolute;
+    z-index: 5;
+    cursor: pointer;
+}
+
+/*
+=style the hamburger wrapper */
+.hb_wrapper {
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+/*
+=Rotate Wrapper
+============================================= */
+/*
+=style the rotate wrapper */
+.hb_rotate-wrapper {
+    /* background-color: white; */
+    width: 18px; height: 18px;
+    display: flex;
+    align-items: center;
+    transition: .5s ease-in-out;
+}
+
+
+/*
+=rotate the rotate wrapper 135° clockwise */
+.hb_checkbox:checked + div .hb_rotate-wrapper {
+    transform: rotate(135deg);
+}
+
+/*
+=rotate the X a further 90° clockwise on hover */
+.hb_checkbox:checked:hover + div .hb_rotate-wrapper {
+    transform: rotate(225deg);
+}
+
+/*
+=Hamburger Lines
+============================================= */
+/*
+=style the hamburger lines */
+.hb_lines,
+.hb_lines::before,
+.hb_lines::after {
+    background-color: rgb( 255 45 0);
+    height: 1.5px; width: 100%;
+}
+
+/*
+=create a new positioning context for the top + bottom lines */
+.hb_lines { position: relative; }
+
+/*
+=position the top + bottom lines */
+.hb_lines::before,
+.hb_lines::after {
+    content: ""; 
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+/*
+=offset the top + bottom lines above + below the center line */
+.hb_lines::before { top: -5px; }
+.hb_lines::after { top: 5px; }
+
+/*
+=rotate + reposition the top + bottom lines */
+.hb_checkbox:checked + div .hb_lines::before,
+.hb_checkbox:checked + div .hb_lines::after {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+
+/*
+=fade out the bottom line upon completion of the X */
+.hb_checkbox:checked + div .hb_lines::after {
+    opacity: 0;
+}
+
+/* ========================================== */
+
+
+
+
+
+
+
+

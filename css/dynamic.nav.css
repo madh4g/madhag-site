@@ -1,0 +1,97 @@
+/*
+Module Name= Dynamic Nav
+Updated= 24.11.27 */
+
+/*
+=Nav Container
+============================================= */
+/*
+=style the nav container */
+nav {
+    width: 250px;
+    position: fixed;
+    top: 0; bottom: 0; right: -250px;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: 0.55s ease-in-out;
+    padding-top: 80px;
+}
+
+/*
+=transition the nav container into view */
+.hb_checkbox:checked ~ nav {
+    background-color: rgb(223 220 212);
+    right: 0;
+}
+
+/*
+=adjust the nav container's width in mobile view */
+@media (max-width: 574.98px) {
+    .hb_checkbox:checked ~ nav {
+        width: 100vw;
+    }
+}
+
+/*
+=Nav Links
+============================================= */
+/*
+=style the links */
+nav a {
+    border-bottom: 1px solid transparent;
+    margin: 0 20px 0 60px; /* top, right, bottom, left */
+    padding: 7px 0; /* top-bottom, left-right */
+
+    color: transparent;
+    font-size: small;
+    letter-spacing: 0.3px;
+    transition: .5s ease-in-out;
+}  
+
+
+/*
+=style the links' transition into view */
+.hb_checkbox:checked ~ nav a {
+    color: rgb(58 65 72);
+    border-bottom-color: rgb(0 0 0/ 0.075);
+    margin-left: 20px;
+}
+
+ .hb_checkbox:checked a:hover { 
+    color: rgb(199, 11, 13);
+    transition: 0.15s;
+    margin-left: 30px; 
+}
+/*
+=set the pre-transition color on the top rule to transparent */
+nav a:first-child {
+    border-top: 1px solid transparent;
+}
+
+/*
+=transition the top rule's color from transparent to light gray */
+.hb_checkbox:checked ~ nav a:first-child {
+    border-top-color: rgb(0 0 0/ 0.75);
+}
+
+/*
+=transition the current page link's color from transparent to red */
+.hb_checkbox:checked ~ nav a.red {
+    color: rgb(199, 11, 13);
+
+}
+
+/* ========================================== */
+
+
+
+
+
+
+
+
+
+
+

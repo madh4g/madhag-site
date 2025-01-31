@@ -9,385 +9,159 @@
 		<title>Madhag</title>
 	
 		<!-- PAGE LINKS -->
-		<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"> -->
-	
-		<link rel="stylesheet" href="../assets/style.css">
-		<link rel="stylesheet" href="../assets/accordion.css">
-		<link rel="stylesheet" href="../assets/fancybox.css">
-        <link rel="stylesheet" href="../assets/media.queries.1col.css">
+        <link rel="stylesheet" href="../css/global.css">
+
+		<link rel="stylesheet" href="../css/dynamic.hamburger.css">
+
+		<link rel="stylesheet" href="../css/responsive.nav.css">
+        <link rel="stylesheet" href="../css/media.queries.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">        
-        
+
+
+
 	</head>
-	<body>	
-<!-- PAGE WRAPPER! -->
+	<body>
+		<!-- PAGE WRAPPER! -->
 		<div class="pge-wrapper">
 
-			<!--HEADER: MAIN NAV ETC! -->		
+			<!--HEADER: MAIN NAV ETC!-->
 			<header>
 
 				<!--INSIDE WRAPPER-->
 				<div class="ins-wrapper"> 
-			
-					<!--PAGE HEADING-->
-					<div class="pge-head">
-						<a class="index-font" href="../index.html">
+
+				    <!--PAGE HEADING-->
+                    <div class="pge-head">
+						<a href="../index.html">
 							<h1>Madhag <br> <span class="by"> by Madi Haggard</span></h1>
 						</a>
 				</div>
-						<!--CHECKBOX-->
-						<!-- <input class="hb_checkbox" id="hamburger" type="checkbox"> 
-						<div> -->
-			
+					<!--CHECKBOX-->
+					<input class="hb_checkbox" id="hamburger" type="checkbox"> 
+					<div>
+
 						<!--LABEL-->
-						<!-- <label class="hb_label" for="hamburger"></label> -->
-			
+						<label class="hb_label" for="hamburger"></label>
+
 						<!--HAMBURGER-->
-						<!-- <div class="hb_wrapper">
+						<div class="hb_wrapper">
 							<div class="hb_rotate-wrapper">
 								<div class="hb_lines">	</div>
 							</div>
 						</div>
-					</div> -->
-			
-				<!--MAIN NAVAGATION-->
-				<nav> 
-					<a href="design.html" class="red">Design</a>
-					<a href="books_home.html">Books</a>
-					<a href="fine_art.html">Fine Arts</a>
-					<a href="about.html">About</a>
-				</nav>
+					</div>
+
+			<!--MAIN NAVAGATION-->
+			<nav> 
+				<!--MENU ITEM-->
+				<menu>
+
+					<!--GRAPHIC DESIGN-->
+					<li>
+						<input type="radio" id="gdes" name="submenu">
+						<ul>
+							<li>
+								<label for="gdes"></label>
+								<a class="red" href="design.html">Design</a>
+							</li>
+							<li class="submenu">
+									<a href="design-starla.html">Starla Wines</a>
+									<a href="design-dg.html">Dizzy Gillespie</a>
+									<a href="design-laviesh.html">La Vie Style House</a>
+									<a href="design-al.html">Lecture Series</a>
+								</li>						
+							</ul>
+					</li>
+
+					<!--BOOKS-->
+					<li>
+						<a href="books.html">Books</a>
+					</li>
+
+					<!--FINE-ARTS-->
+					<li>
+						<a href="fine-arts.html">Fine Arts</a>
+					</li>
+
+					<!--ABOUT-->
+					<li>
+						<a href="about.html">About</a>
+						
+					</li>
+
+				</menu>
+			</nav>
+
 				</div>
-				<!--END OF INSIDE WRAPPER-->
-			
-			<!--END OF HEADER-->		
+			<!--END OF INSIDE WRAPPER-->
+
+
 			</header>
-
- 			<!--IMAGE GALLERY-->
-			<div class="img-space">
-
-					<div class="nav3_cnt">
-					<!--NAVAGATION3 NAVAGATION-->
-					<div class="nav3-links"> 
-						<li>
-						<a class="nav-name" href="#1">Starla Wines</a>
-						<a class="nav-name" href="#2">Garden Party</a>
-						<a class="nav-name" href="#3">Architecture Lecture Series</a>
-						<a class="nav-name" href="#4">Estuary</a> 
-						<a class="nav-name" href="#8">B+W floral</a> <br>
-						<a class="nav-name" href="#5">Dizzy Gillespie</a>
-						<a class="nav-name" href="#6">Red Leaves</a>
-						</li>
-					</div>
 					
-					<div class="img-gallery"> 
+			<div class="pro-des">
 
-					<figure class="img-wrapper"
-						data-fancybox="gallery"
-						data-src="../imgs/design_imgs/1.jpg"> 
+				<p>click into each project to learn more.</p>
 
-						<a name="1"></a>
-
-						<img src="../imgs/design_imgs/1.jpg" alt="#">
-						<figcaption> <h3>Starla Wines <span class="cap"> Brand Design 2020-2023 </span> </h3> </figcaption>
+				</div>
+			 <!--IMAGE GALLERY-->
+			<div class="img-gallery">
+			
+				<div class="group-design">
+					<figure class="img-wrapper"> 
+						<a href="design-starla.html"><img src="../imgs/design_imgs/1.4.jpg" alt="#"></a>
 					</figure>
-					<div class="pro-des">
+					<span> 
+						<a href="design-starla.html">
+							<span class="title">Starla Wines</span><br><span class="cap"> Brand Design 2020—22</span> 
+						</a>
+					</span>
+				</div>
 
-						<h4>more</h4>
-			
-						 <!--CHEVRON-->
-						 <input class="chv_checkbox" type="checkbox">  
-						 <div class="chv_wrapper">
-							<div class="rotate-wrapper"> </div>
-							
-						 </div>
-			
-						 <!--ACCORDION-->		
-						 <div class="accordion"> 
-							
-							<figcaption> <h4> Seen In: <span class="more">
-								Forbes, The Food Network, The Washington Post, The New York Times,
-								AD Week, Vanderpump Rules </span><br>
-			
-								Stockists: 
-								<span class="more">Specs, Sprouts, Walmart, Target, Amazon.com, HEB </span>
-							</h4>
-							</figcaption>
-
-						 </div>	 
-						</div>
-
-
-					<figure class="img-wrapper"
-						data-fancybox="gallery"
-						data-src="../imgs/design_imgs/2.jpg"> 
-						
-						<a name="2"></a>
-
-						<img src="../imgs/design_imgs/2.jpg" alt="#">
-						<figcaption> <h3>Garden Party<span class="cap"> Textile Design 2023 </span> </h3> 
-						</figcaption>
+				<div class="group-design">
+					<figure class="img-wrapper">
+						<a href="design-dg.html"><img src="../imgs/design_imgs/4.1.jpg" alt="#"></a>
 					</figure>
+					<span> 
+						<a href="design-dg.html">
+							<span class="title">Dizzy Gillespie</span><br><span class="cap"> Poster Design 2023</span> 
+						</a>
+					</span>
+				</div>
 
-					<div class="pro-des">
-
-						<h4>more</h4>
-			
-						 <!--CHEVRON-->
-						 <input class="chv_checkbox" type="checkbox">  
-						 <div class="chv_wrapper">
-							<div class="rotate-wrapper"> </div>
-							
-						 </div>
-			
-						 <!--ACCORDION-->		
-						 <div class="accordion"> 
-							
-							<figcaption> <span class="more">
-								Custom seqin design for La Vie Style House Fall 23. 
-								La Vie Style House FA23 <span class="sold"> sold out.</span>
-								Ordered by Saks Fifth Avenue for FA23, <span class="sold"> sold out.</span> 
-								Worn by Carly Pearce for her <br>Country Music Awards Performance, 2023.</span>
-							</figcaption>
-
-						 </div>	 
-						</div>
-
-					<figure class="img-wrapper"
-						data-fancybox="gallery"
-						data-src="../imgs/design_imgs/3.jpg"> 
-
-						<a name="3"></a>
-
-						<img src="../imgs/design_imgs/3.jpg" alt="#">
-						<figcaption> <h3>Architecture Lecture Series <span class="cap"> Poster Design 2024 
-						</span> </h3> </figcaption>
+				<div class="group-design">
+					<figure class="img-wrapper">
+						<a href="design-laviesh.html"><img src="../imgs/design_imgs/3.1.jpg" alt="#"></a>
 					</figure>
-					<div class="pro-des">
+					<span> 
+						<a href="design-laviesh.html">
+							<span class="title">La Vie Style House</span><br><span class="cap"> Brand Identity 2020—24</span> 
+						</a>
+					</span>
+				</div>
 
-						<h4>more</h4>
-			
-						 <!--CHEVRON-->
-						 <input class="chv_checkbox" type="checkbox">  
-						 <div class="chv_wrapper">
-							<div class="rotate-wrapper"> </div>
-							
-						 </div>
-			
-						 <!--ACCORDION-->		
-						 <div class="accordion"> 
-							
-							<figcaption><span class="more">
-								Architecture Lecture Series, a large-format, multi-fold program/poster for SAIC’s School of Architecture Fall 2024 Lecture Series. The design process included analyzing program content to establish a clear hierarchy and sequence, researching speakers’ architectural work to inform a cohesive visual theme, and incorporating hand-painted textures to add color and depth. The final layout featured custom imagery and structured typography to organize and present the information effectively.</span>
-											
-							</figcaption>
-
-						 </div>	 
-						</div>
-
-						<figure class="img-wrapper"
-						data-fancybox="gallery"
-						data-src="../imgs/design_imgs/8.png"> 
-						
-						<a name="8"></a>
-
-						<img src="../imgs/design_imgs/8.png" alt="#"> 
-						<figcaption> <h3> B + W Floral <span class="cap">Identity Branding 2022</span> </h3> </figcaption>
-					</figure>	
-					<div class="pro-des">
-
-						<h4>more</h4>
-			
-						 <!--CHEVRON-->
-						 <input class="chv_checkbox" type="checkbox">  
-						 <div class="chv_wrapper">
-							<div class="rotate-wrapper"> </div>
-							
-						 </div>
-			
-						 <!--ACCORDION-->		
-						 <div class="accordion"> 
-							
-							<figcaption> <span class="more">
-								Design featuring La Vie Style House typographic logo with decorative elements
-								This design incorporates La Vie Style House’s typography logo, enhanced with decorative elements, and was created for use across e-commerce sites, social media, and in-store applications. The design ensures a cohesive visual identity, maintaining consistency across multiple platforms.</span>
-							</figcaption>
-
-						 </div>	 
-						</div>
-					<figure class="img-wrapper"
-						data-fancybox="gallery"
-						data-src="../imgs/design_imgs/4.jpg"> 
-						
-						<a name="4"></a>
-
-						<img src="../imgs/design_imgs/4.jpg" alt="#">
-						<figcaption> <h3>Estuary Album Design<span class="cap">Cut paper collage, 2024 </span> </h3> </figcaption>
+				<div class="group-design">
+					<figure class="img-wrapper"> 
+						<a href="design-al.html"><img src="../imgs/design_imgs/3.jpg" alt="#"></a>
 					</figure>
-					<div class="pro-des">
-
-						<h4>more</h4>
-			
-						 <!--CHEVRON-->
-						 <input class="chv_checkbox" type="checkbox">  
-						 <div class="chv_wrapper">
-							<div class="rotate-wrapper"> </div>
-							
-						 </div>
-			
-						 <!--ACCORDION-->		
-						 <div class="accordion"> 
-							
-							<figcaption><span class="more">
-								Album graphic created for the band Estuary. This is
-								an exploration of color and shape directly influenced
-								by sound. I curated all colors and shapes to each
-								musician involved in this album generating unique
-								shapes and compositions. The type is the producers
-								own handwriting, pulled from music charts.</span>
-								
-							</figcaption>
-
-						 </div>	 
-						</div>
-
-
-					<figure class="img-wrapper"
-						data-fancybox="gallery"
-						data-src="../imgs/design_imgs/5.jpg"> 
-						
-						<a name="5"></a>
-
-						<img src="../imgs/design_imgs/5.jpg" alt="#"> 
-						<figcaption> <h3>Dizzy Gillespie<span class="cap">Poster Design, 2023 </span> </h3> </figcaption>
-					</figure>
-					<div class="pro-des">
-
-						<h4>more</h4>
-			
-						 <!--CHEVRON-->
-						 <input class="chv_checkbox" type="checkbox">  
-						 <div class="chv_wrapper">
-							<div class="rotate-wrapper"> </div>
-							
-						 </div>
-			
-						 <!--ACCORDION-->		
-						 <div class="accordion"> 
-							
-							<figcaption><span class="more">
-								This poster was designed to capture the essence
-                        of the Jazz musician Dizzy Gillespie through color,
-                        texture, and composition. The graphic is a the digital
-                        manipulation and collage of parts from a set of three
-                        cut paper collages with hand painted textures.</span>
-							</h4>
-							</figcaption>
-
-						 </div>	 
-						</div>
-
-					<figure class="img-wrapper"
-						data-fancybox="gallery"
-						data-src="../imgs/design_imgs/6.jpg"> 
-						
-						<a name="6"></a>
-
-						<img src="../imgs/design_imgs/6.jpg" alt="#"> 
-						<figcaption> <h3>Red Leaves Box<span class="cap">Packaging Design 2023</span> </h3> </figcaption>
-					</figure>	
-					<div class="pro-des">
-
-						<h4>more</h4>
-			
-						 <!--CHEVRON-->
-						 <input class="chv_checkbox" type="checkbox">  
-						 <div class="chv_wrapper">
-							<div class="rotate-wrapper"> </div>
-							
-						 </div>
-			
-						 <!--ACCORDION-->		
-						 <div class="accordion"> 
-							
-							<figcaption> <span class="more">
-								
-							
-								La Vie Style House product shipping box design. 
-
-								This design was developed for La Vie Style House’s in-store and online product shipping, intended to be used throughout the holiday season and into spring.  The design is adaptable to different seasonal themes and maintains consistency across both retail and e-commerce shipping.</span>
-							</figcaption>
-
-						 </div>	 
-						</div>
-
-						
-
-					<!--END IMAGE GALLERY-->
-					</div>
-
-		 <footer>
-			<h4>&copy; 2025 Madisen Haggard. <br><br><br>
-				All rights reserved.</h4>
-		</footer> 
-
-			<!--END IMAGE SPACE-->
+					<span> 
+						<a href="design-al.html">
+							<span class="title">Architecture Lecture</span><br><span class="cap"> Poster Design 2024</span> 
+						</a>
+					</span>
+				</div>
 			</div>
-
-		<!--END PAGE WRAPPER-->
 		</div>
+		 <!--END PAGE WRAPPER-->
+		 <div class="footer">
+			<footer>
+				<h4>&copy; 2025 Madhag. All rights reserved.</h4>
+				</footer> 
+	
+		</div>
+		
+		 <!--JAVASCRIPT-->
+         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>    
 
-<!-- JAVASCRIPT -->
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>    
-
-<script>// documentation at https://fancyapps.com/fancybox/
-
-Fancybox.bind("[data-fancybox]", {
-  // Transition effect when changing gallery items //
-  Carousel: {
-    transition: "slide",
-  },
-  // Customize the toolbar //
-  Toolbar: {
-    display: {
-      right: ["slideshow", "dis"],
-    },
-  },
-});
-</script>
-
-<script>
-	// Smooth scroll function with adjustable speed
-	function smoothScroll(event, target) {
-		event.preventDefault(); // Prevent default anchor link behavior
-
-		const targetElement = document.querySelector(target);
-		const targetPosition = targetElement.getBoundingClientRect().top;
-		const startPosition = window.pageYOffset;
-		const distance = targetPosition;
-		const duration = 1000; // Adjust this value to control speed (milliseconds)
-		let startTime = null;
-
-		function animation(currentTime) {
-			if (startTime === null) startTime = currentTime;
-			const timeElapsed = currentTime - startTime;
-			const run = ease(timeElapsed, startPosition, distance, duration);
-			window.scrollTo(0, run);
-			if (timeElapsed < duration) requestAnimationFrame(animation);
-		}
-
-		// Easing function for smoother effect
-		function ease(t, b, c, d) {
-			t /= d / 4;
-			if (t < 1) return c / 2 * t * t + b;
-			t--;
-			return -c / 2 * (t * (t - 2) - 1) + b;
-		}
-
-		requestAnimationFrame(animation);
-	}
-</script>
 
 	</body>
 </html>

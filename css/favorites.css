@@ -1,0 +1,48 @@
+/*
+=STYLE THE FAVORITES SECTION*/ 
+.favorite5 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.favorite5 span {
+    margin-top: 40px;
+}
+
+span.milk,
+span.survivor,
+span.stone,
+span.climb,
+span.slippers {
+    margin-top: 30px;
+    padding-bottom: 15px;
+    padding-right: 17px;
+}
+span.milk {
+    font: italic 500 20px/.5 "Guyot", "Baskerville", serif; 
+    letter-spacing: 0.06em;
+}
+
+span.survivor {
+    font: normal 600 15px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+span.stone {
+    font: normal 400 18px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 0.13em;
+}
+
+span.climb {
+    font: normal 500 20px/.5 "Guyot", "Baskerville", serif; 
+    letter-spacing: 0.06em;
+}
+
+span.slippers {
+    font: normal 600 17px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 0.08em;
+}

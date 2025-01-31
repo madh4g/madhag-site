@@ -1,0 +1,87 @@
+/*
+Name= Media Queries
+
+/*
+=X-Small Screen < 576px
+============================================= */
+@media (max-width: 575.98px) {
+    .pge-wrapper { padding: 0 20px 40px; }
+    .ins-wrapper { padding: 0 20px; }
+    .img-wrapper,
+    .group,
+    .group-arts,
+    .group-design  { flex: 0 0 70%; }
+    .group-about { flex: 0 0 85%;}
+
+}
+
+/*
+=Small Screen ≥ 576px
+============================================= */
+@media (min-width: 576px) {
+    .pge-wrapper { padding: 0 20px 60px; }
+    .ins-wrapper { padding: 0 20px; }
+    .img-wrapper,
+    .group,
+    .group-design,
+    .group-arts,
+    .group-about,
+    .group-js { flex: 0 0 70%; }
+    
+
+}
+
+/*
+=Medium Screen ≥ 768px
+============================================= */
+@media (min-width: 768px) {
+    .pge-wrapper { padding: 0 60px 80px; }
+    .ins-wrapper { padding: 0 60px; }
+}
+
+
+/*
+=Large Screen ≥ 992px
+============================================= */
+@media (min-width: 992px) {
+    .pge-wrapper { padding:0  100px 100px; } /* top left-right bottom */
+    .ins-wrapper { padding: 0 100px; } /* top-bottom left-right */
+    .group-about { flex: 0 0 70%;}
+    .group-js { flex: 0 0 50%;}
+    .group-arts { flex: 0 0 45%;}
+    .img-wrapper,
+    .group { flex: 0 0 33.333%; } 
+    .group-design { flex: 0 0 25%; }
+}
+
+/* ========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
