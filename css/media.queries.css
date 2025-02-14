@@ -12,7 +12,12 @@ Name= Media Queries
     .group-arts,
     .group-design  { flex: 0 0 70%; }
     .group-about { flex: 0 0 85%;}
+    .f-fancybox-footer {
+        background-color: transparent !important; /* Remove background color */
+        box-shadow: none !important; /* Remove any shadows */
+    }
 
+    
 }
 
 /*
@@ -27,7 +32,10 @@ Name= Media Queries
     .group-arts,
     .group-about,
     .group-js { flex: 0 0 70%; }
-    
+    .fancybox-footer{
+        background-color: transparent !important; /* Remove background color */
+        box-shadow: none !important; /* Remove any shadows */
+    }
 
 }
 
