@@ -82,7 +82,7 @@ menu .submenu {
 =show the submenu */
 menu input:checked + ul .submenu {
   max-height: 500px; /* set the submenu’s maximum height */
-  background-color: rgb(223 220 212/ 0.9); /* transition the submenu’s background color to a translucent red */
+  background-color: rgb(235 232 228/ 0.9); /* transition the submenu’s background color to a translucent red */
 
 }
 
@@ -121,7 +121,7 @@ menu input:checked + ul .submenu a {
   /*
   =display the nav container when the hamburger is clicked */
   .hb_checkbox:checked ~ nav {
-    background-color: rgb(223 220 212/ 0.9); /* transition the background color to a translucent light gray */
+    background-color: rgb(235 232 228/ 0.9); /* transition the background color to a translucent light gray */
     left: 0; /* transition the nav container into view by aligning its left edge with the viewport’s left edge */
   }
   

@@ -5,7 +5,7 @@
     --carousel-button-svg-width: 2.2rem;
     --carousel-button-svg-height: 2.2rem;
     --carousel-button-svg-stroke-width: 0.15rem;
-    --carousel-button-svg-color: rgb(223 220 212);
+    --carousel-button-svg-color: rgb(235 232 228);
     --carousel-button-svg-filter: drop-shadow(0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.4))
     
    }
@@ -49,6 +49,6 @@
    } */
    .fancybox__backdrop {
     background: none !important;
-    background-color: rgb(223 220 212) !important;
+    background-color: rgb(235 232 228) !important;
 }
    

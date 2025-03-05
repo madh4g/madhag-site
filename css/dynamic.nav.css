@@ -22,7 +22,7 @@ nav {
 /*
 =transition the nav container into view */
 .hb_checkbox:checked ~ nav {
-    background-color: rgb(223 220 212);
+    background-color: rgb(235 232 228);
     right: 0;
 }
 
