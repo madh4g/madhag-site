@@ -122,7 +122,7 @@ h1{
 
 h2 {
     font: normal 400 27px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
-    color: rgb(199, 11, 13);
+    color: rgb(199 11 13);
 }
 
 h3{
@@ -136,9 +136,13 @@ h3{
 h4 {
     font: normal 600 16px/2 "Guyot", "Baskerville", serif; 
     letter-spacing: 0.02em;
-
-  
 }
+
+h5 {
+    font: normal 400 27px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
+    color: rgb(56 56 56);
+}
+
 .pge-head a span.red {
     font: italic 630 16px/2 "Guyot", "Baskerville", serif; 
     letter-spacing: 0.02em;
@@ -173,6 +177,12 @@ h4 {
     margin-top: 150px;
     flex-direction: column;
     /* margin-left: 92px; */
+}
+
+.pro-des_index {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 
