@@ -136,6 +136,7 @@ h3{
 h4 {
     font: normal 600 16px/2 "Guyot", "Baskerville", serif; 
     letter-spacing: 0.02em;
+
 }
 
 h5 {
@@ -345,6 +346,7 @@ p.design_body {
 a { text-decoration: none; }
 
 
+
 /*
 =Starla COls
 ============================================= */
@@ -362,3 +364,17 @@ a { text-decoration: none; }
     margin-top: 56px;
 }
 
+/*
+=LINK STATES
+============================================= */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically centers the text */
+    text-align: center;  /* Centers the text inside each h4 element */
+    height: 100px; /* Adjust the height as needed */
+}
+
+footer h4 {
+    line-height: 1.4;
+}
