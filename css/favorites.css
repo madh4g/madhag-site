@@ -1,7 +1,7 @@
 /*
 =STYLE THE FAVORITES SECTION*/ 
 .favorite5 {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 25px;
     display: flex; 
     align-items: center;
@@ -21,28 +21,38 @@ span.slippers {
     padding-bottom: 15px;
     padding-right: 17px;
 }
-span.milk {
+span.milk a {
     font: italic 500 20px/.5 "Guyot", "Baskerville", serif; 
     letter-spacing: 0.06em;
+    color: rgb( 56 56 56)
+
 }
 
-span.survivor {
+span.survivor a {
     font: normal 600 15px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    color: rgb( 56 56 56)
+
 }
 
-span.stone {
+span.stone a {
     font: normal 400 18px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
     letter-spacing: 0.13em;
+    color: rgb( 56 56 56)
+
 }
 
-span.climb {
+span.climb a {
     font: normal 500 20px/.5 "Guyot", "Baskerville", serif; 
     letter-spacing: 0.06em;
+    color: rgb( 56 56 56)
+
 }
 
-span.slippers {
+span.slippers a {
     font: normal 600 17px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
     letter-spacing: 0.08em;
+    color: rgb( 56 56 56)
+
 }

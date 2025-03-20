@@ -165,12 +165,11 @@ h5 {
 ============================================= */
 .pro-des { 
     margin-top: 200px;
-    margin-left: 92px;
-}
+    margin-bottom: 0;}
 
-.pro-des_design { 
-    margin-top: 150px;
-    /* margin-left: 92px; */
+.pro-des-short{ 
+    margin-top: 20px;
+    margin-left: 92px;
 }
 
 .pro-des_design { 
@@ -193,9 +192,11 @@ h5 {
     margin-right: 40px;
 }
 
-.pro-des p {
+.pro-des p, 
+.pro-des-short p {
         font-size: small;
         color: rgb(199 11 13/.45);
+        margin-left:15px ;
     }
 
     .pro-des_design-red p { 
