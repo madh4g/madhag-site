@@ -121,7 +121,7 @@ menu input:checked + ul .submenu a {
   /*
   =display the nav container when the hamburger is clicked */
   .hb_checkbox:checked ~ nav {
-    background-color: rgb(235 232 228/ 0.9); /* transition the background color to a translucent light gray */
+    background-color: rgb(232 232 232/ 0.8); /* transition the background color to a translucent light gray */
     left: 0; /* transition the nav container into view by aligning its left edge with the viewport’s left edge */
   }
   

@@ -76,7 +76,7 @@ Updated= 24.11.27 */
 .hb_lines,
 .hb_lines::before,
 .hb_lines::after {
-    background-color: rgb( 255 45 0);
+    background-color: rgb(199, 11, 13);
     height: 1.5px; width: 100%;
 }
 

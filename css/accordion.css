@@ -14,7 +14,7 @@ Updated= 24.11.27 */
 /*
 =style the accordion */
 .accordion {
-    background-color: linear-gradient( rgb(235 232 228), rgb(235 232 228));
+    background-color: linear-gradient( rgb(232 232 232), rgb(238 238 238));
     color: transparent;
     max-height: 0;
     overflow-y: hidden; 
@@ -32,7 +32,7 @@ Updated= 24.11.27 */
 /*
 =transition the span element's text color from transparent to red */
 .chv_checkbox:checked ~ .accordion span.red {
-    color: rgb(255 45 0);
+    color: rgb(199, 11, 13);
 }
 
 
@@ -92,7 +92,7 @@ Updated= 24.11.27 */
 .chv_rotate-wrapper::before,
 .chv_rotate-wrapper::after {
     content:"";
-    background-color: rgb(255 45 0);
+    background-color: rgb(199, 11, 13);
     width: 50%; height: 1.5px;
 }
 

@@ -49,6 +49,6 @@
    } */
    .fancybox__backdrop {
     background: none !important;
-    background-color: rgb(235 232 228) !important;
+    background-color: rgb(232 232 232/ 0.7) !important;
 }
    
