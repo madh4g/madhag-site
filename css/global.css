@@ -19,7 +19,7 @@ Name= Global */
 =STYLE THE BODY ELEMENT */
 body {
     /* background-color: rgb(223 220 212);  */
-    background-color: rgb(235 232 228); 
+    background-color: rgb(238 238 238); 
 
     font: normal 400 15px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;  
     letter-spacing: 0.2px;
@@ -42,7 +42,7 @@ span.bold {
 =PAGE WRAPPER
 ============================================= */
 .pge-wrapper {
-    background-color: rgb(235 232 228); 
+    background-color: rgb(238 238 238); 
     display: flow-root; /* create a new block formatting context  */
     max-width: 1200px;
     min-height: 100vh;
@@ -65,7 +65,7 @@ header {
 =Style the Inside Wrapper */ 
 header .ins-wrapper {
 
-    background-color: rgb(223 220 212/ 0.3);
+    background-color: rgb(232 232 232/ 0.7);
     max-width: 100%;
     margin: 0 auto; 
     padding-top: 20px; 
