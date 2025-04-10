@@ -10,7 +10,7 @@ Name= Media Queries
     .img-wrapper,
     .group,
     .group-arts,
-    .group-design  { flex: 0 0 70%; }
+    .group-design  { flex: 0 0 80%; }
     .group-about { flex: 0 0 85%;}
     .f-fancybox-footer {
         background-color: transparent !important; /* Remove background color */
@@ -31,7 +31,7 @@ Name= Media Queries
     .group-design,
     .group-arts,
     .group-about,
-    .group-js { flex: 0 0 70%; }
+    .group-js { flex: 0 0 33.33%; }
     .fancybox-footer{
         background-color: transparent !important; /* Remove background color */
         box-shadow: none !important; /* Remove any shadows */

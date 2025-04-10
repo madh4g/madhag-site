@@ -21,7 +21,7 @@ body {
     /* background-color: rgb(223 220 212);  */
     background-color: rgb(238 238 238); 
 
-    font: normal 400 15px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;  
+    font: normal 400 12px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;  
     letter-spacing: 0.2px;
     margin: 0;
     display: flex;
@@ -34,7 +34,7 @@ body {
 /*
 = THE BODY ELEMENT BOLD*/
 span.bold {
-    font: normal 600 16px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
+    font: normal 600 14px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
     text-transform: inherit;
 }
 
@@ -121,7 +121,7 @@ h1{
 }
 
 h2 {
-    font: normal 400 27px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
+    font: normal 400 21px/ 1.6 "Scala", "Lucida Sans Unicade", Arial, sans-serif;   
     color: rgb(199 11 13);
 }
 
@@ -134,7 +134,7 @@ h3{
 }
 
 h4 {
-    font: normal 600 16px/2 "Guyot", "Baskerville", serif; 
+    font: normal 600 14px/2 "Guyot", "Baskerville", serif; 
     letter-spacing: 0.02em;
 
 }
@@ -317,14 +317,14 @@ span.cap {
     margin-left: 20px;
 }
 span.title {
-    font: normal 300 17px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    font: normal 300 15px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
     letter-spacing: 1.2px;
     padding-right: 20px;
     color: rgb(199, 11, 13);
 
 }
 span.cap {
-    font: normal 250 14px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    font: normal 250 11px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
     letter-spacing: 1.2px;
     margin-bottom: -5px;
     text-transform: uppercase;
@@ -337,8 +337,8 @@ li a.red {
 }
 
 span.sub-head {
-    font: normal 450 16px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
-    letter-spacing: 1.2px;
+    font: normal 450 13px/ .01 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 1px;
 
 }
 
