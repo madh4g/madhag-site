@@ -82,8 +82,10 @@ menu .submenu {
 =show the submenu */
 menu input:checked + ul .submenu {
   max-height: 500px; /* set the submenu’s maximum height */
-  background-color: rgb(235 232 228/ 0.9); /* transition the submenu’s background color to a translucent red */
-
+  background-color: rgba(238 238 238); /* transition the submenu’s background color to a translucent red */
+  letter-spacing: .5px;
+  font-size: 11px;
+  font-weight: 300;
 }
 
 /*
@@ -113,15 +115,16 @@ menu input:checked + ul .submenu a {
   nav {
     z-index: 10;
     position: fixed; /* Remove the nav container from the page flow to allow precise positioning */
-    top: 0; left: -250px; bottom: 0; /* position the nav container against the browser viewport’s top, left, + bottom edges */
-    width: 250px; /* assign a set width to the nav container */
+    top: 100px; left: -250px; bottom: 0; /* position the nav container against the browser viewport’s top, left, + bottom edges */
+    width: 170px;
+    height:fit-content; /* assign a set width to the nav container */
     transition: 0.65s ease-in-out; /* ensure a smooth transition of the nav container into + out of view */
   }
   
   /*
   =display the nav container when the hamburger is clicked */
   .hb_checkbox:checked ~ nav {
-    background-color: rgb(232 232 232/ 0.8); /* transition the background color to a translucent light gray */
+    background-color: rgb(238 238 238); /* transition the background color to a translucent light gray */
     left: 0; /* transition the nav container into view by aligning its left edge with the viewport’s left edge */
   }
   
@@ -140,7 +143,7 @@ menu input:checked + ul .submenu a {
   /*
   =apply a top margin to the first menu item */
   menu > li:nth-child(1) {
-    margin-top: 65px; /* override the previous ruleset to create some separation from the viewport's top edge */
+    margin-top: 0px; /* override the previous ruleset to create some separation from the viewport's top edge */
   }
   
   /*

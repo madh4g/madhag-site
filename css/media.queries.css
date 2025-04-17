@@ -8,9 +8,10 @@ Name= Media Queries
     .pge-wrapper { padding: 0 20px 40px; }
     .ins-wrapper { padding: 0 20px; }
     .img-wrapper,
-    .group,
+    
     .group-arts,
-    .group-design  { flex: 0 0 80%; }
+    .group-design  { flex: 0 0 50%; }
+    .group { flex: 0 0 33.33%}
     .group-about { flex: 0 0 85%;}
     .f-fancybox-footer {
         background-color: transparent !important; /* Remove background color */
@@ -28,10 +29,11 @@ Name= Media Queries
     .ins-wrapper { padding: 0 20px; }
     .img-wrapper,
     .group,
-    .group-design,
     .group-arts,
-    .group-about,
     .group-js { flex: 0 0 33.33%; }
+    .group-design { flex: 0 0 25%; }
+    .group-about { flex: 0 0 85%;}
+
     .fancybox-footer{
         background-color: transparent !important; /* Remove background color */
         box-shadow: none !important; /* Remove any shadows */

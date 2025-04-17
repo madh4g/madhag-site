@@ -8,27 +8,28 @@ Updated= 24.11.27 */
 /*
 =style the nav container */
 nav {
-    width: 250px;
+    width: 100px;
     position: fixed;
-    top: 0; bottom: 0; right: -250px;
+    top: 0; bottom: 0; right: -100px;
 
     display: flex;
     flex-direction: column;
 
-    transition: 0.55s ease-in-out;
-    padding-top: 80px;
+    transition: right 0.55s ease-in-out;
+    /* padding-top: 80px; */
+    background-color: rgb(238 238 238/ 0.7);
+
 }
 
 /*
 =transition the nav container into view */
 .hb_checkbox:checked ~ nav {
-    background-color: rgb(232 232 232/ 0.7);
     right: 0;
 }
 
 /*
 =adjust the nav container's width in mobile view */
-@media (max-width: 574.98px) {
+@media (max-width: 575.98px) {
     .hb_checkbox:checked ~ nav {
         width: 100vw;
     }
