@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- META DATA -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- PAGE TITLE -->
+		<title>Madhag</title>
+	
+		<!-- PAGE LINKS -->
+        <link rel="stylesheet" href="../../css/global.css">
+
+		<link rel="stylesheet" href="../../css/dynamic.hamburger.css">
+		<link rel="stylesheet" href="../../css/fancybox.css">
+
+		<link rel="stylesheet" href="../../css/responsive.nav.css">
+        <link rel="stylesheet" href="../../css/media.queries.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">        
+
+
+
+	</head>
+	<body>
+		<!-- PAGE WRAPPER! -->
+		<div class="pge-wrapper">
+
+			<!--HEADER: MAIN NAV ETC!-->
+			<header>
+
+				<!--INSIDE WRAPPER-->
+				<div class="ins-wrapper"> 
+
+				    <!--PAGE HEADING-->
+                    <div class="pge-head">
+						<a href="../../index.html">
+							<h1>Madhag <br> <span class="by"> by Madi Haggard</span></h1>
+						</a>
+				</div>
+					<!--CHECKBOX-->
+					<input class="hb_checkbox" id="hamburger" type="checkbox"> 
+					<div>
+
+						<!--LABEL-->
+						<label class="hb_label" for="hamburger"></label>
+
+						<!--HAMBURGER-->
+						<div class="hb_wrapper">
+							<div class="hb_rotate-wrapper">
+								<div class="hb_lines">	</div>
+							</div>
+						</div>
+					</div>
+
+			<!--MAIN NAVAGATION-->
+			<nav> 
+				<!--MENU ITEM-->
+				<menu>
+					<!--GRAPHIC DESIGN-->
+					<li>
+						<a href="../design.html">Design</a>
+					</li>
+
+					<!--For Fun-->
+					<li>
+						<input type="radio" id="gdes" name="submenu">
+						<ul>
+							<li>
+								<label for="gdes"></label>
+								<a class="red" href="../play.html">Play</a>
+							</li>
+							<li class="submenu">
+									<a href="../play.html">Play Home</a>
+									<a href="ora.html">ORA</a>
+									<a href="ratc.html">Rat City</a>
+									<a href="salt.html">Salt</a>
+								<a href="emgor.html">Emgor</a>
+								<a href="al.html">Lecture Series</a>
+								<a href="estuary.html">Estuary</a>
+								<a href="truman.html">Truman Capote</a>
+								<a href="dg.html">Dizzy Gillespie</a>
+							</li>
+						</ul>
+					</li>
+
+					<!--HOME-->
+					<li>
+						<a href="../fine-arts.html"> Fine Arts</a>
+					</li>
+
+
+					<!--ABOUT-->
+					<li>
+						<a href="../about.html">About</a>
+						
+					</li>
+
+
+				</menu>
+			</nav>
+
+				</div>
+			<!--END OF INSIDE WRAPPER-->
+
+
+			</header>
+					
+			<div class="pro-des_design">
+				<h2>Rat City</h2>				   </div>
+				<br><br>
+
+				<div class="design-head-wrapper">
+					<div class="col-wrapper">
+					<div class="pro-des_text">
+						<span class="sub-head"> 
+							Creative and Art Direction <br>
+							Video Production<br>
+							Animation<br>
+							Photography and Editing<br>
+							
+
+						</span>
+							
+					</div>
+				</div>
+			</div>
+				
+					  
+			<div class="book-text"> <p>RAT TAKEOVER!! A wild stop-motion adventure where two friends find themselves on the run from the city’s ultimate menace… a massive, unstoppable rat!</p>
+			</div>	
+
+				<div class="img-gallery">
+
+					<div class="group-about">
+						<video id="ratcity-video" playsinline>
+						  <source src="../../imgs/a_mp4/rca.MP4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<button id="play-button">Play</button>
+					  </div>
+					</div>
+				
+
+			
+		</div>
+		 <!--END PAGE WRAPPER-->
+		 <div class="footer">
+			<footer>
+				<h4> &copy;2025 Madhag. All rights reserved.</h4> <h4> Coded by Madi Haggard</h4>
+				</footer> 
+	
+		</div>
+
+		
+		 <!--JAVASCRIPT-->
+         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>    
+		 <script>
+			document.addEventListener("DOMContentLoaded", function () {
+			  Fancybox.bind("[data-fancybox='gallery']", {});
+			});
+
+			const video = document.getElementById('ratcity-video');
+  const playButton = document.getElementById('play-button');
+
+  playButton.addEventListener('click', () => {
+    video.play();
+    playButton.style.display = 'none'; // hide button after play starts
+  });
+		  </script>
+		
+		  
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

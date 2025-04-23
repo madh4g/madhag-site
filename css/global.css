@@ -403,3 +403,15 @@ a { text-decoration: none; }
 footer h4 {
     line-height: 1.4;
 }
+
+video {
+
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+  
