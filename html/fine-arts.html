@@ -1,227 +1,174 @@
+Here's your cleaned-up and clearly sectioned code. I've preserved all your active logic exactly as it is, but reformatted it for better readability and consistency, and added intuitive section labels that we can keep using for future chunks.
+
+```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- META DATA -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <!-- META DATA -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- PAGE TITLE -->
-		<title>Madhag</title>
-	
-		<!-- PAGE LINKS -->
-        <link rel="stylesheet" href="../css/global.css">
+  <!-- PAGE TITLE -->
+  <title>Madhag</title>
 
-		<link rel="stylesheet" href="../css/accordion.css">
-		<link rel="stylesheet" href="../css/dynamic.hamburger.css">
-		<link rel="stylesheet" href="../css/fancybox.css">
+  <!-- GLOBAL + COMPONENT STYLES -->
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/accordion.css">
+  <link rel="stylesheet" href="../css/dynamic.hamburger.css">
+  <link rel="stylesheet" href="../css/fancybox.css">
+  <link rel="stylesheet" href="../css/responsive.nav.css">
+  <link rel="stylesheet" href="../css/media.queries.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+</head>
 
+<body>
+  <!-- PAGE WRAPPER -->
+  <div class="pge-wrapper">
 
-		<link rel="stylesheet" href="../css/responsive.nav.css">
-        <link rel="stylesheet" href="../css/media.queries.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">        
+    <!-- HEADER SECTION -->
+    <header>
+      <!-- HEADER WRAPPER -->
+      <div class="ins-wrapper">
 
+        <!-- BRANDING -->
+        <div class="pge-head">
+          <a href="../index.html">
+            <h1>Madhag <br> <span class="by">by Madi Haggard</span></h1>
+          </a>
+        </div>
 
+        <!-- HAMBURGER MENU SETUP -->
+        <input class="hb_checkbox" id="hamburger" type="checkbox">
+        <div>
+          <label class="hb_label" for="hamburger"></label>
+          <div class="hb_wrapper">
+            <div class="hb_rotate-wrapper">
+              <div class="hb_lines"></div>
+            </div>
+          </div>
+        </div>
 
-	</head>
-	<body>
-		<!-- PAGE WRAPPER! -->
-		<div class="pge-wrapper">
+        <!-- MAIN NAVIGATION -->
+        <nav>
+          <menu>
+            <li><a href="design.html">Design</a></li>
+            <li><a href="play.html">Play</a></li>
+            <li><a class="red" href="fine-arts.html">Fine Arts</a></li>
+            <li><a href="about.html">About</a></li>
+          </menu>
+        </nav>
 
-			<!--HEADER: MAIN NAV ETC!-->
-			<header>
+      </div>
+      <!-- END HEADER WRAPPER -->
+    </header>
 
-				<!--INSIDE WRAPPER-->
-				<div class="ins-wrapper"> 
+    <!-- INTRO TEXT FOR GALLERY -->
+    <div class="pro-des">
+      <p>click on any image to show carousel.</p>
+    </div>
 
-				    <!--PAGE HEADING-->
-                    <div class="pge-head">
-						<a href="../index.html">
-							<h1>Madhag <br> <span class="by"> by Madi Haggard</span></h1>
-						</a>
-				</div>
-					<!--CHECKBOX-->
-					<input class="hb_checkbox" id="hamburger" type="checkbox"> 
-					<div>
+    <!-- IMAGE GALLERY SECTION -->
+    <div class="img-gallery">
 
-						<!--LABEL-->
-						<label class="hb_label" for="hamburger"></label>
+      <!-- IMAGE CARD -->
+      <div class="group-arts">
+        <figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/1.jpg">
+          <img src="../imgs/fineart_images/1.jpg" alt="#">
+        </figure>
+        <span><span class="title">Press Play</span><br><span class="cap">ASSEMBLAGE, 2024</span></span>
+      </div>
 
-						<!--HAMBURGER-->
-						<div class="hb_wrapper">
-							<div class="hb_rotate-wrapper">
-								<div class="hb_lines">	</div>
-							</div>
-						</div>
-					</div>
+      <div class="group-arts">
+        <figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/2.jpg">
+          <img src="../imgs/fineart_images/2.jpg" alt="#">
+        </figure>
+        <span><span class="title">Vernal Party</span><br><span class="cap">PEN ON PAPER, 2021</span></span>
+      </div>
 
-			<!--MAIN NAVAGATION-->
-			<nav> 
-				<!--MENU ITEM-->
-				<menu>
+      <div class="group-arts">
+        <figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/3.jpg">
+          <img src="../imgs/fineart_images/3.jpg" alt="#">
+        </figure>
+        <span><span class="title">Organic Reconstruction</span><br><span class="cap">COLLAGE, 2024</span></span>
+      </div>
 
-					<!--GRAPHIC DESIGN-->
-					<li>
-						<a href="design.html">Design</a>
-					</li>
+      <div class="group-arts">
+        <figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/4.jpg">
+          <img src="../imgs/fineart_images/4.jpg" alt="#">
+        </figure>
+        <span><span class="title">Who are you seeing?</span><br><span class="cap">COLLAGE, 2024</span></span>
+      </div>
 
-					<!--ILLUSTRATIONS-->
-					<li>
-						<a href="play.html">Play</a>
-					</li>
+      <div class="group-arts">
+        <figure class="img-wrapper_no-box" data-fancybox="gallery" data-src="../imgs/fineart_images/5.jpg">
+          <img src="../imgs/fineart_images/5.jpg" alt="#">
+        </figure>
+        <span><span class="title">Untitled</span><br><span class="cap">COLLAGE OF SCREENPRINTS, 2024</span></span>
+      </div>
 
-					<!--HOME-->
-					<li>
-						<a class="red" href="fine-arts.html"> Fine Arts</a>
-					</li>
+      <div class="group-arts">
+        <figure class="img-wrapper_no-box" data-fancybox="gallery" data-src="../imgs/fineart_images/6.png">
+          <img src="../imgs/fineart_images/6.png" alt="#">
+        </figure>
+        <span><span class="title">Searching for Air</span><br><span class="cap">COLLAGE OF SCREENPRINTS, 2024</span></span>
+      </div>
 
-					<!--ABOUT-->
-					<li>
-						<a href="about.html">About</a>
-						
-					</li>
+      <div class="group-arts">
+        <figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/7.jpg">
+          <img src="../imgs/fineart_images/7.jpg" alt="#">
+        </figure>
+        <span><span class="title">Organic Reconstruction CMYK</span><br><span class="cap">SCREENPRINT, 2024</span></span>
+      </div>
 
+      <div class="group-arts">
+        <figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/8.jpg">
+          <img src="../imgs/fineart_images/8.jpg" alt="#">
+        </figure>
+        <span><span class="title">What Are You Watching?</span><br><span class="cap">COLLAGE OF SCREENPRINTS, 2024</span></span>
+      </div>
 
-				</menu>
-			</nav>
+      <div class="group-arts">
+        <figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/9.jpg">
+          <img src="../imgs/fineart_images/9.jpg" alt="#">
+        </figure>
+        <span><span class="title">My Kinda Night</span><br><span class="cap">MIXED MEDIA ON PAPER, 2023</span></span>
+      </div>
 
-			</div>
-			<!--END OF INSIDE WRAPPER-->
-			</header>
-					
-			<div class="pro-des">
+      <div class="group-arts">
+        <figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/10.jpg">
+          <img src="../imgs/fineart_images/10.jpg" alt="#">
+        </figure>
+        <span><span class="title">Night Terror</span><br><span class="cap">CHARCOAL ON PAPER, 2022</span></span>
+      </div>
 
-				<p>click on any image to show carousel.</p>
+    </div>
+    <!-- END IMAGE GALLERY -->
 
-			</div>
-			 <!--IMAGE GALLERY-->
-			<div class="img-gallery">		
+    <!-- FOOTER LINK -->
+    <div class="pro-des_index">
+      <span class="index-text"><a href="../index.html">home</a></span>
+    </div>
 
-				<div class="group-arts">
-					<figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/1.jpg"> 						
-						<img src="../imgs/fineart_images/1.jpg" alt="#">
-					</figure>
-					<span> 
-						<span class="title"> Press Play  </span><br><span class="cap"> ASSEMBLAGE, 2024</span> 
-					</span>
-				</div>
+  </div>
+  <!-- END PAGE WRAPPER -->
 
-				<div class="group-arts">
-					<figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/2.jpg"> 						
-						<img src="../imgs/fineart_images/2.jpg" alt="#">	
-					</figure>
-					<span> 
-						<span class="title"> Vernal Party</span> <br><span class="cap"> PEN ON PAPER, 2021</span> 
-					</span>
-				</div>
+  <!-- FOOTER SECTION -->
+  <div class="footer">
+    <footer>
+      <h4>&copy;2025 Madhag. All rights reserved.</h4>
+      <h4>Coded by Madi Haggard</h4>
+    </footer>
+  </div>
 
-				<div class="group-arts">
-					<figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/3.jpg"> 						
-						<img src="../imgs/fineart_images/3.jpg"  alt="#">
-					</figure>
-					<span>
-						<span class="title"> Organic Reconstruction </span> <br><span class="cap"> COLLAGE, 2024</span> 		
-					</span>
-				</div>
+  <!-- JAVASCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      Fancybox.bind("[data-fancybox='gallery']", {});
+    });
+  </script>
 
-				<div class="group-arts">
-					<figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/4.jpg"> 						
-						<img src="../imgs/fineart_images/4.jpg" alt="#">
-					</figure>
-					<span> 
-						<span class="title"> Who are you seeing? </span><br><span class="cap"> COLLAGE, 2024</span> 
-					</span>
-				</div>
-
-				<div class="group-arts">
-					<figure class="img-wrapper_no-box" data-fancybox="gallery" data-src="../imgs/fineart_images/5.jpg"> 						
-						<img src="../imgs/fineart_images/5.jpg" alt="#">	
-					</figure>
-					<span> 
-						<span class="title"> Untitled</span> <br><span class="cap"> COLLAGE OF SCREENPRINTS, 2024</span> 
-					</span>
-				</div>
-
-				<div class="group-arts">
-					<figure class="img-wrapper_no-box" data-fancybox="gallery" data-src="../imgs/fineart_images/6.png"> 						
-						<img src="../imgs/fineart_images/6.png" alt="#">	
-					</figure>
-					<span> 
-						<span class="title"> Searching for Air </span> <br><span class="cap"> COLLAGE OF SCREENPRINTS, 2024</span> 
-					</span>
-				</div>
-
-				<div class="group-arts">
-					<figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/7.jpg"> 						
-						<img src="../imgs/fineart_images/7.jpg" alt="#">	
-					</figure>
-					<span> 
-							<span class="title"> Organic Reconstruction CMYK </span><br><span class="cap"> SCREENPRINT, 2024 </span> 
-					</span>
-				</div>
-
-				<div class="group-arts">
-					<figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/8.jpg"> 						
-						<img src="../imgs/fineart_images/8.jpg" alt="#">	
-					</figure>
-					<span> 
-							<span class="title"> What Are You Watching? </span><br><span class="cap"> COLLAGE OF SCREENPRINTS, 2024 </span> 
-					</span>
-				</div>
-
-				<div class="group-arts">
-					<figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/9.jpg"> 						
-						<img src="../imgs/fineart_images/9.jpg" alt="#">	
-					</figure>
-					<span> 
-						<span class="title"> My Kinda Night </span> <br><span class="cap"> Mixed Media on Paper, 2023</span> 
-					</span>
-				</div>
-		
-				<div class="group-arts">
-					<figure class="img-wrapper" data-fancybox="gallery" data-src="../imgs/fineart_images/10.jpg"> 						
-						<img src="../imgs/fineart_images/10.jpg" alt="#">	
-					</figure>
-					<span> 
-						<span class="title"> Night Terror </span> <br><span class="cap"> Charcoal on Paper, 2022</span> 
-					</span>
-				</div>
-			
-			
-
-			</div>	
-			<!--END OF IMAGE GALLERY-->
-
-			<div class="pro-des_index"> 				 
-				<span class="index-text"><a href="../index.html"> home </a>
-				</span></div>
-				
-		</div>	
-		 <!--END PAGE WRAPPER-->
-		 <div class="footer">
-			<footer>
-				<h4> &copy;2025 Madhag. All rights reserved.</h4> <h4> Coded by Madi Haggard</h4>
-				</footer> 
-	
-		</div>
-		
-		 <!--JAVASCRIPT-->
-		 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>    
-		 <script>
-			document.addEventListener("DOMContentLoaded", function () {
-			  Fancybox.bind("[data-fancybox='gallery']", {});
-			});
-		  </script>
-
-	</body>
+</body>
 </html>
-
-
-
-
-
-
-
-
-
 
 

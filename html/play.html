@@ -1,260 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- META DATA -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- PAGE TITLE -->
-		<title>Madhag</title>
-	
-		<!-- PAGE LINKS -->
-        <link rel="stylesheet" href="../css/global.css">
+	<!-- TITLE -->
+	<title>Madhag</title>
 
-		<link rel="stylesheet" href="../css/dynamic.hamburger.css">
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="../css/global.css">
+	<link rel="stylesheet" href="../css/dynamic.hamburger.css">
+	<link rel="stylesheet" href="../css/responsive.nav.css">
+	<link rel="stylesheet" href="../css/media.queries.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+</head>
 
-		<link rel="stylesheet" href="../css/responsive.nav.css">
-        <link rel="stylesheet" href="../css/media.queries.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">        
+<body>
+	<!-- PAGE WRAPPER -->
+	<div class="pge-wrapper">
 
+		<!-- HEADER SECTION -->
+		<header>
+			<!-- HEADER INNER WRAPPER -->
+			<div class="ins-wrapper">
 
-
-	</head>
-	<body>
-		<!-- PAGE WRAPPER! -->
-		 <div class="pge-wrapper">
-
-			<!--HEADER: MAIN NAV ETC!-->
-			<header>
-
-				<!--INSIDE WRAPPER-->
-				<div class="ins-wrapper"> 
-
-				    <!--PAGE HEADING-->
-                    <div class="pge-head">
-						<a href="../index.html">
-							<h1>Madhag <br> <span class="by"> by Madi Haggard</span></h1>
-						</a>
+				<!-- LOGO / SITE TITLE -->
+				<div class="pge-head">
+					<a href="../index.html">
+						<h1>Madhag <br> <span class="by">by Madi Haggard</span></h1>
+					</a>
 				</div>
-					<!--CHECKBOX-->
-					<input class="hb_checkbox" id="hamburger" type="checkbox"> 
-					<div>
 
-						<!--LABEL-->
-						<label class="hb_label" for="hamburger"></label>
-
-						<!--HAMBURGER-->
-						<div class="hb_wrapper">
-							<div class="hb_rotate-wrapper">
-								<div class="hb_lines">	</div>
-							</div>
+				<!-- HAMBURGER MENU TOGGLE -->
+				<input class="hb_checkbox" id="hamburger" type="checkbox">
+				<div>
+					<label class="hb_label" for="hamburger"></label>
+					<div class="hb_wrapper">
+						<div class="hb_rotate-wrapper">
+							<div class="hb_lines"></div>
 						</div>
 					</div>
-
-			<!--MAIN NAVAGATION-->
-			<nav> 
-				<!--MENU ITEM-->
-				<menu>
-
-					<!--GRAPHIC DESIGN-->
-					<li>
-						<a href="design.html">Design</a>
-					</li>
-
-					<!--For Fun-->
-					<li>
-						<input type="radio" id="gdes" name="submenu">
-						<ul>
-							<li>
-								<label for="gdes"></label>
-								<a class="red" href="Play.html">Play</a>
-							</li>
-							<li class="submenu">
-								<a href="play/ora.html">ORA</a>
-								<a href="play/ratc.html">Rat City</a>
-								<a href="play/salt.html">Salt</a>
-								<a href="play/emgor.html">Emgor</a>
-								<a href="play/al.html">Lecture Series</a>
-								<a href="play/estuary.html">Estuary</a>
-								<a href="play/truman.html">Truman Capote</a>
-								<a href="play/dg.html">Dizzy Gillespie</a>
-							</li>
-						</ul>
-					</li>
-
-					<!--HOME-->
-					<li>
-						<a href="fine-arts.html"> Fine Arts</a>
-					</li>
-
-					<!--ABOUT-->
-					<li>
-						<a href="about.html">About</a>
-						
-					</li>
-
-
-				</menu>
-			</nav>
-
 				</div>
-			<!--END OF INSIDE WRAPPER-->
 
+				<!-- NAVIGATION -->
+				<nav>
+					<menu>
+						<!-- GRAPHIC DESIGN -->
+						<li><a href="design.html">Design</a></li>
 
-			</header>
-					
-			<div class="pro-des">
+						<!-- PLAY / FOR FUN SECTION -->
+						<li>
+							<input type="radio" id="gdes" name="submenu">
+							<ul>
+								<li>
+									<label for="gdes"></label>
+									<a class="red" href="Play.html">Play</a>
+								</li>
+								<li class="submenu">
+									<a href="play/ora.html">ORA</a>
+									<a href="play/ratc.html">Rat City</a>
+									<a href="play/salt.html">Salt</a>
+									<a href="play/emgor.html">Emgor</a>
+									<a href="play/al.html">Lecture Series</a>
+									<a href="play/estuary.html">Estuary</a>
+									<a href="play/truman.html">Truman Capote</a>
+									<a href="play/dg.html">Dizzy Gillespie</a>
+								</li>
+							</ul>
+						</li>
 
-				<p>click into each project to learn more.</p>
+						<!-- FINE ARTS -->
+						<li><a href="fine-arts.html">Fine Arts</a></li>
 
-				</div>
-			 <!--IMAGE GALLERY-->
+						<!-- ABOUT -->
+						<li><a href="about.html">About</a></li>
+					</menu>
+				</nav>
+			</div>
+			<!-- END HEADER INNER WRAPPER -->
+		</header>
 
-			 <div class="img-gallery">
+		<!-- PROJECT DESCRIPTION -->
+		<div class="pro-des">
+			<p>click into each project to learn more.</p>
+		</div>
 
-
-				<div class="group-arts">
-					<figure class="img-wrapper"> 
-					  <a href="play/ora.html">
+		<!-- VIDEO PROJECTS GALLERY -->
+		<div class="img-gallery">
+			<div class="group-arts">
+				<figure class="img-wrapper">
+					<a href="play/ora.html">
 						<video autoplay muted loop playsinline>
-						  <source src="../imgs/ora/OR_d.Studio-c1.mp4" type="video/mp4">
-						  Your browser does not support the video tag.
+							<source src="../imgs/ora/OR_d.Studio-c1.mp4" type="video/mp4">
+							Your browser does not support the video tag.
 						</video>
-					  </a>
-					</figure>
-					<span> 
-					  <a href="play/ora.html">
+					</a>
+				</figure>
+				<span>
+					<a href="play/ora.html">
 						<span class="title">ORA</span><br>
 						<span class="cap">Animation</span>
-					  </a>
-					</span>
-				  </div>
-
-
-
-				<div class="group-arts">
-					<figure class="img-wrapper"> 
-					  <a href="play/ratc.html">
-						<video autoplay muted loop playsinline>
-						  <source src="../imgs/a_mp4/rcac.mp4" type="video/mp4">
-						  Your browser does not support the video tag.
-						</video>
-					  </a>
-					</figure>
-					<span> 
-					  <a href="play/ratc.html">
-						<span class="title">Rat City (more coming soon) </span><br>
-						<span class="cap">Animation</span>
-					  </a>
-					</span>
-				  </div>
-
-			</div>
-
-
-			<div class="img-gallery">
-
-
-			<div class="group">
-				<figure class="img-wrapper"> 
-					<a href="play/salt.html"><img src="../imgs//salt/1.1.jpg" alt="#"></a>
-				</figure>
-				<span> 
-					<a href="play/salt.html">
-						<span class="title">Salt</span><br><span class="cap"> Publication Design </span> 
-
 					</a>
 				</span>
 			</div>
-			
-				
-				<div class="group">
-					<figure class="img-wrapper"> 
-						<a href="play/emgor.html"><img src="../imgs/design_imgs/7.jpg" alt="#"></a>
-					</figure>
-					<span> 
-						<a href="play/emgor.html">
-							<span class="title">Emgor</span><br><span class="cap"> Album Design </span> 
-						</a>
-					</span>
-				</div>
 
-
-				<div class="group">
-					<figure class="img-wrapper"> 
-						<a href="play/al.html"><img src="../imgs/design_imgs/4.jpg" alt="#"></a>
-					</figure>
-					<span> 
-						<a href="play/al.html">
-							<span class="title">Architecture Lecture</span><br><span class="cap"> Poster Design </span> 
-						</a>
-					</span>
-				</div>
-
-				<div class="group">
-					<figure class="img-wrapper"> 
-						<a href="play/estuary.html"><img src="../imgs/design_imgs/6.jpg" alt="#"></a>
-					</figure>
-					<span> 
-						<a href="play/estuary.html">
-							<span class="title">Estuary</span><br><span class="cap"> Album Design </span> 
-						</a>
-					</span>
-				</div>
-
-				<div class="group">
-					<figure class="img-wrapper"> 
-						<a href="play/truman.html"><img src="../imgs//truman/1.1.jpg" alt="#"></a>
-					</figure>
-					<span> 
-						<a href="play/truman.html">
-							<span class="title">Truman Capote</span><br><span class="cap"> Publication Design </span> 
-	
-						</a>
-					</span>
-				</div>
-
-				<div class="group">
-					<figure class="img-wrapper">
-						<a href="play/dg.html"><img src="../imgs/design_imgs/2.jpg" alt="#"></a>
-					</figure>
-					<span> 
-						<a href="play/dg.html">
-							<span class="title">Dizzy Gillespie</span><br><span class="cap"> Poster Design </span> 
-						</a>
-					</span>
-				</div>
-
-
+			<div class="group-arts">
+				<figure class="img-wrapper">
+					<a href="play/ratc.html">
+						<video autoplay muted loop playsinline>
+							<source src="../imgs/a_mp4/rcac.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</a>
+				</figure>
+				<span>
+					<a href="play/ratc.html">
+						<span class="title">Rat City (more coming soon)</span><br>
+						<span class="cap">Animation</span>
+					</a>
+				</span>
+			</div>
 		</div>
 
-		<!-- <div class="pro-des_index"> 				 
-			<span class="index-text-home"><a href="../index.html"> home </a>
-			</span></div> -->
+		<!-- IMAGE PROJECTS GALLERY -->
+		<div class="img-gallery">
+			<div class="group">
+				<figure class="img-wrapper">
+					<a href="play/salt.html"><img src="../imgs//salt/1.1.jpg" alt="#"></a>
+				</figure>
+				<span>
+					<a href="play/salt.html">
+						<span class="title">Salt</span><br>
+						<span class="cap">Publication Design</span>
+					</a>
+				</span>
+			</div>
 
-	 </div>
-	 <!--END PAGE WRAPPER-->
-	 <div class="footer">
-		<footer>
-			<h4> &copy;2025 Madhag. All rights reserved.</h4> <h4> Coded by Madi Haggard</h4>
-		</footer> 
+			<div class="group">
+				<figure class="img-wrapper">
+					<a href="play/emgor.html"><img src="../imgs/design_imgs/7.jpg" alt="#"></a>
+				</figure>
+				<span>
+					<a href="play/emgor.html">
+						<span class="title">Emgor</span><br>
+						<span class="cap">Album Design</span>
+					</a>
+				</span>
+			</div>
 
+			<div class="group">
+				<figure class="img-wrapper">
+					<a href="play/al.html"><img src="../imgs/design_imgs/4.jpg" alt="#"></a>
+				</figure>
+				<span>
+					<a href="play/al.html">
+						<span class="title">Architecture Lecture</span><br>
+						<span class="cap">Poster Design</span>
+					</a>
+				</span>
+			</div>
+
+			<div class="group">
+				<figure class="img-wrapper">
+					<a href="play/estuary.html"><img src="../imgs/design_imgs/6.jpg" alt="#"></a>
+				</figure>
+				<span>
+					<a href="play/estuary.html">
+						<span class="title">Estuary</span><br>
+						<span class="cap">Album Design</span>
+					</a>
+				</span>
+			</div>
+
+			<div class="group">
+				<figure class="img-wrapper">
+					<a href="play/truman.html"><img src="../imgs//truman/1.1.jpg" alt="#"></a>
+				</figure>
+				<span>
+					<a href="play/truman.html">
+						<span class="title">Truman Capote</span><br>
+						<span class="cap">Publication Design</span>
+					</a>
+				</span>
+			</div>
+
+			<div class="group">
+				<figure class="img-wrapper">
+					<a href="play/dg.html"><img src="../imgs/design_imgs/2.jpg" alt="#"></a>
+				</figure>
+				<span>
+					<a href="play/dg.html">
+						<span class="title">Dizzy Gillespie</span><br>
+						<span class="cap">Poster Design</span>
+					</a>
+				</span>
+			</div>
+		</div>
 	</div>
-		
-		 <!--JAVASCRIPT-->
-         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>    
+	<!-- END PAGE WRAPPER -->
 
+	<!-- FOOTER -->
+	<div class="footer">
+		<footer>
+			<h4>&copy;2025 Madhag. All rights reserved.</h4>
+			<h4>Coded by Madi Haggard</h4>
+		</footer>
+	</div>
 
-	</body>
+	<!-- JAVASCRIPT -->
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-

@@ -215,6 +215,13 @@ h5 {
     /* margin-left: 92px; */
 }
 
+.pro-des_design-stack { 
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    /* margin-left: 92px; */
+}
+
 .pro-des_index {
     display: flex;
     align-items: center;
@@ -241,7 +248,7 @@ h5 {
     }
 
     .pro-des_design-red p { 
-        margin-top: 50px;
+        margin-top: 20px;
         font-size: small;
         color: rgb(199 11 13/.45);
     }

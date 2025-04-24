@@ -1,197 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- META DATA -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <!-- META DATA -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- PAGE TITLE -->
-		<title>Madhag</title>
-	
-		<!-- PAGE LINKS -->
-        <link rel="stylesheet" href="css/global.css">
+    <!-- PAGE TITLE -->
+    <title>Madhag</title>
 
-		<link rel="stylesheet" href="css/dynamic.hamburger.css">
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/dynamic.hamburger.css">
+    <link rel="stylesheet" href="css/responsive.nav.css">
+    <link rel="stylesheet" href="css/media.queries.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+</head>
 
-		<link rel="stylesheet" href="css/responsive.nav.css">
-        <link rel="stylesheet" href="css/media.queries.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">        
+<body>
+    <!-- PAGE WRAPPER -->
+    <div class="pge-wrapper">
 
-	</head>
-	<body>
-		<!-- PAGE WRAPPER! -->
-		 <div class="pge-wrapper">
+        <!-- HEADER: NAVIGATION + LOGO -->
+        <header>
+            <div class="ins-wrapper">
 
-			<!--HEADER: MAIN NAV ETC!-->
-			<header>
+                <!-- LOGO / HEADING -->
+                <div class="pge-head">
+                    <a href="index.html">
+                        <h3>Madhag <br> <span class="red">by Madi Haggard</span></h3>
+                    </a>
+                </div>
 
-				<!--INSIDE WRAPPER-->
-				<div class="ins-wrapper"> 
+                <!-- HAMBURGER MENU -->
+                <input class="hb_checkbox" id="hamburger" type="checkbox">
+                <div>
+                    <label class="hb_label" for="hamburger"></label>
+                    <div class="hb_wrapper">
+                        <div class="hb_rotate-wrapper">
+                            <div class="hb_lines"></div>
+                        </div>
+                    </div>
+                </div>
 
-				    <!--PAGE HEADING-->
-                    <div class="pge-head">
-						<a href="index.html">
-							<h3>Madhag <br> <span class="red"> by Madi Haggard</span></h3>
-						</a>
-				</div>
-					<!--CHECKBOX-->
-					<input class="hb_checkbox" id="hamburger" type="checkbox"> 
-					<div>
+                <!-- NAVIGATION MENU -->
+                <nav>
+                    <menu>
+                        <li><a href="html/design.html">Design</a></li>
+                        <li><a href="html/play.html">Play</a></li>
+                        <li><a href="html/fine-arts.html">Fine Arts</a></li>
+                        <li><a href="html/about.html">About</a></li>
+                    </menu>
+                </nav>
+            </div>
+        </header>
 
-						<!--LABEL-->
-						<label class="hb_label" for="hamburger"></label>
+        <!-- INTRO PARAGRAPH -->
+        <div class="pro-des">
+            <p>this is madhag</p>
+        </div>
 
-						<!--HAMBURGER-->
-						<div class="hb_wrapper">
-							<div class="hb_rotate-wrapper">
-								<div class="hb_lines">	</div>
-							</div>
-						</div>
-					</div>
+        <!-- IMAGE PREVIEW BLOCK -->
+        <div class="img-gallery">
+            <div class="group-arts">
+                <figure class="img-wrapper_no-box">
+                    <img src="imgs/about_imgs/1.png" alt="#">
+                </figure>
+            </div>
+            <div class="group-arts">
+                <figure class="img-wrapper_no-box">
+                    <img src="imgs/about_imgs/4.png" alt="#">
+                </figure>
+            </div>
+        </div>
 
-			<!--MAIN NAVAGATION-->
-			<nav> 
-				<!--MENU ITEM-->
-				<menu>
-					<!--GRAPHIC DESIGN-->
-					<li>
-						<a href="html/design.html">Design</a>
-					</li>
+        <!-- CTA SECTION: VIEW WORK -->
+        <div class="pro-des_index">
+            <span class="index-text"><a href="html/design.html">view my work</a></span>
+        </div>
 
-					<!--ILLUSTRATIONS-->
-					<li>
-						<a href="html/play.html">Play</a>
-					</li>
+        <!-- CTA SECTION: HIGHLIGHTS INTRO -->
+        <div class="pro-des_home">
+            <p>highlights, <br> click on each image for more.</p>
+        </div>
 
-					<!--HOME-->
-					<li>
-						<a href="html/fine-arts.html"> Fine Arts</a>
-					</li>
+        <!-- FEATURED PROJECTS GALLERY -->
+        <div class="img-gallery">
 
-					<!--ABOUT-->
-					<li>
-						<a href="html/about.html">About</a>
-						
-					</li>
+            <!-- ORA Project -->
+            <div class="group-about">
+                <figure class="img-wrapper">
+                    <a href="/html/play/ora.html">
+                        <video autoplay muted loop playsinline>
+                            <source src="../imgs/ora/OR_d.Studio-c1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </a>
+                </figure>
+                <span>
+                    <a href="/html/play/ora.html">
+                        <span class="title">ORA</span><br>
+                        <span class="cap">Animation</span>
+                    </a>
+                </span>
+            </div>
 
+            <!-- The Horrors of Travel Project -->
+            <div class="group-about">
+                <figure class="img-wrapper">
+                    <a href="html/design/ttxt.html">
+                        <img src="imgs/home_imgs/2.jpg" alt="#">
+                    </a>
+                </figure>
+                <span>
+                    <a href="html/design/ttxt.html">
+                        <span class="title">The Horrors of Travel</span>
+                        <span class="cap"></span>
+                    </a>
+                </span>
+            </div>
 
-				</menu>
-			</nav>
+            <!-- VCD Publication Project -->
+            <div class="group-about">
+                <figure class="img-wrapper">
+                    <a href="html/design/vcdp.html">
+                        <img src="imgs/home_imgs/4.jpg" alt="#">
+                    </a>
+                </figure>
+                <span>
+                    <a href="html/design/vcdp.html">
+                        <span class="title">VCD Publication</span>
+                        <span class="cap"></span>
+                    </a>
+                </span>
+            </div>
+        </div>
 
-				</div>
-			<!--END OF INSIDE WRAPPER-->
+        <!-- CTA SECTION: NAVIGATION SHORTCUTS -->
+        <div class="pro-des_index">
+            <span class="index-text-1">
+                <a href="html/design.html">go to <span class="index-red">Design</span></a><br>
+                <a href="html/play.html">go to <span class="index-red">Play</span></a>
+            </span>
+        </div>
 
+    </div> <!-- END PAGE WRAPPER -->
 
-			</header>
+    <!-- FOOTER -->
+    <div class="footer">
+        <footer>
+            <h4>&copy;2025 Madhag. All rights reserved.</h4>
+            <h4>Coded by Madi Haggard</h4>
+        </footer>
+    </div>
 
-			<div class="pro-des">
-
-				<p>this is madhag</p>
-
-				</div>
-
-			<div class="img-gallery">
-
-			<div class="group-arts">
-				<figure class="img-wrapper_no-box">
-					<img src="imgs/about_imgs/1.png"  alt="#">
-				</figure>
-			</div>
-			<div class="group-arts">
-				<figure class="img-wrapper_no-box">
-					<img src="imgs/about_imgs/4.png"  alt="#">
-				</figure>
-			</div>
-		</div>
-
-		<div class="pro-des_index"> 				 
-			<span class="index-text"><a href="html/design.html"> view my work </a>
-			</span></div>
-
-		<div class="pro-des_home">
-
-			<p>highlights, <br> click on each image for more.</p>
-
-		</div>
-		
-		 <!--IMAGE GALLERY-->
-
-		 
-		<div class="img-gallery">
-
-			<div class="group-about">
-				<figure class="img-wrapper"> 
-				  <a href="/html/play/ora.html">
-					<video autoplay muted loop playsinline>
-					  <source src="../imgs/ora/OR_d.Studio-c1.mp4" type="video/mp4">
-					  Your browser does not support the video tag.
-					</video>
-				  </a>
-				</figure>
-				<span> 
-				  <a href="/html/play/ora.html">
-					<span class="title">ORA</span><br>
-					<span class="cap">Animation</span>
-				  </a>
-				</span>
-			  </div>
-
-		<div class="group-about">
-			<figure class="img-wrapper">
-				<a href="html/design/ttxt.html"><img src="imgs/home_imgs/2.jpg" alt="#">
-			</figure>
-			<span> 
-				<a href="html/design/ttxt.html">
-					<span class="title">The Horrors of Travel<span class="cap">  </span> </span>
-				</a>
-			</span>
-		</div>
-
-		<div class="group-about">
-			<figure class="img-wrapper"> 
-				<a href="html/design/vcdp.html"><img src="imgs/home_imgs/4.jpg" alt="#"></a>
-			</figure>
-			<span> 
-				<a href="html/design/vcdp.html">
-					<span class="title">VCD Publication<span class="cap"> </span> </span>
-				</a>
-			</span>
-		</div>
-
-		</div>
-
-		<div class="pro-des_index"> 				 
-			<span class="index-text-1"><a href="html/design.html"> go to <span class="index-red"> Design </span>  </a>
-			<br><a href="html/play.html"> go to  <span class="index-red"> Play </span>  </a>
-			</span></div>
-
-
-		
-		</div>
-
-		<div class="footer">
-			<footer>
-				<h4> &copy;2025 Madhag. All rights reserved.</h4> <h4> Coded by Madi Haggard</h4>
-				</footer> 
-	
-
-		 <!--END PAGE WRAPPER-->
-
-		
-		 <!--JAVASCRIPT-->
-         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>    
-
-
-	</body>
+    <!-- JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
