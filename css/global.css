@@ -360,7 +360,7 @@ figcaption a {    cursor: pointer;
  /*
 =Style the text  */
 span.title,
-span.cap {
+span.cap, span.cap-arts {
     margin-left: 20px;
 }
 span.title {
@@ -374,6 +374,13 @@ span.cap {
     font: normal 250 11px/ .5 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
     letter-spacing: 1.2px;
     margin-bottom: -5px;
+    text-transform: uppercase;
+    color: rgb(56 56 56); 
+
+}
+span.cap-arts {
+    font: normal 250 11px/ 3 "Scala", "Lucida Sans Unicade", Arial, sans-serif; 
+    letter-spacing: 1.2px;
     text-transform: uppercase;
     color: rgb(56 56 56); 
 
