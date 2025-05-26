@@ -297,11 +297,6 @@
 						  <a href="#"><img src="../../imgs//ora/30.jpg" alt="#"></a>
 						</figure>
 					  </div>
-					  
-
-				
-
-			
 			</div>
 		</div>
 		 <!--END PAGE WRAPPER-->
@@ -314,11 +309,19 @@
 
 		
 		 <!--JAVASCRIPT-->
-         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>    
+		 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>    
 		 <script>
 			document.addEventListener("DOMContentLoaded", function () {
 			  Fancybox.bind("[data-fancybox='gallery']", {});
 			});
+
+			const video = document.getElementById('ora-video');
+  const playButton = document.getElementById('play-button');
+
+  playButton.addEventListener('click', () => {
+    video.play();
+    playButton.style.display = 'none'; // hide button after play starts
+  });
 		  </script>
 		  
 
